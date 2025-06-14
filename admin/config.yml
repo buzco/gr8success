@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: gr8success     # owner/repo format
+  branch: main
+  use_graphql: true                  # recommended for GitHub backend
+
+media_folder: "img"                 # path in your repo (relative to root)
+public_folder: "/img"              # path seen in HTML
+
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "products"             # will create files in /products
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Alt Text", name: "alt", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Size Guide URL", name: "size_guide", widget: "string" }
+      - { label: "Shopify Buy Button Embed", name: "buy_button", widget: "text" }
+
+
