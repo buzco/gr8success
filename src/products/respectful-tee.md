@@ -1,11 +1,13 @@
 ---
-images: /img/respectful_tee_front.png
+image_1:
+  - /img/respectful_tee_front.png
+image_2:
+  - /img/respectful_tee_back.png
+image_3:
+  - /img/buzco_keychain-01.png
+image_4:
+  - /img/i-respectfully-believe-i-am-actually-really-cool.png
 title: Respectful Tee
-description: |-
-  
-  Pro tip: You can get away with any bold statement if you start a 
-  sentence with "I respectfully". Example: I respectfully believe you 
-  should shut the f* up. You see, it works, right?
 size_guide_url: https://www.gr8success.xyz/size_guide
 shopify_embed: >-
   <div id='product-component-1749949334465'></div>
@@ -324,4 +326,10 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
+images: /img/respectful_tee_front.png
+description: |-
+  
+  Pro tip: You can get away with any bold statement if you start a 
+  sentence with "I respectfully". Example: I respectfully believe you 
+  should shut the f* up. You see, it works, right?
 ---
