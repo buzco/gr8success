@@ -3,6 +3,10 @@ backend:
   repo: buzco/gr8success     # owner/repo format
   branch: main
   use_graphql: true                  # recommended for GitHub backend
+  auth_scope: repo
+  base_url: https://gr8success.pages.dev/
+  auth_endpoint: /api/auth
+  app_id: Ov23liLIOfyoGYVL1kSL
 
 media_folder: "img"                 # path in your repo (relative to root)
 public_folder: "/img"              # path seen in HTML
