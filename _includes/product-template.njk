@@ -1,0 +1,37 @@
+<div class="product-template">
+<div class="image-viewer">
+  <img src="{{ images[0] }}" alt="{{ title }}" class="product-image">
+</div>
+
+<div class="image-thumb">
+  {% for image in images | slice(0, 4) %}
+    <img src="{{ image }}" onmouseover="updateImage(this)" {% if loop.index0 == 0 %}class="active"{% endif %}>
+  {% endfor %}
+</div>
+
+<script>
+  function updateImage(ele) {
+    const product = ele.closest(".product-template");
+    const viewer = product.querySelector(".image-viewer img");
+    const thumbs = product.querySelectorAll(".image-thumb img");
+
+    viewer.src = ele.src;
+
+    thumbs.forEach(img => img.classList.remove("active"));
+    ele.classList.add("active");
+  }
+</script>
+
+
+  <h2>{{ title }}</h2>
+
+  <div class="description">
+    {{ description | safe }}
+  </div>
+
+  {% if size_guide_url %}
+    <p><a href="{{ size_guide_url }}" target="_blank">Size Guide & Other Specs</a></p>
+  {% endif %}
+
+  {{ shopify_embed | safe }}
+</div>

@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: gr8success     # owner/repo format
+  repo: buzco/gr8success     # owner/repo format
   branch: main
   use_graphql: true                  # recommended for GitHub backend
 
@@ -10,15 +10,75 @@ public_folder: "/img"              # path seen in HTML
 collections:
   - name: "products"
     label: "Products"
-    folder: "products"             # will create files in /products
+    folder: "src/products"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Alt Text", name: "alt", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Size Guide URL", name: "size_guide", widget: "string" }
-      - { label: "Shopify Buy Button Embed", name: "buy_button", widget: "text" }
+      - label: "Image 1"
+        name: "image_1"
+        widget: "image"
+        choose_url: true
+        media_library:
+          config:
+            multiple: true
+        multiple: true
+        required: true
+        hint: "Update the main picture here"
+
+      - label: "Image 2"
+        name: "image_2"
+        widget: "image"
+        choose_url: true
+        media_library:
+          config:
+            multiple: true
+        multiple: true
+        required: true
+        hint: "Update the main picture here"
+        
+      - label: "Image 3"
+        name: "image_3"
+        widget: "image"
+        choose_url: true
+        media_library:
+          config:
+            multiple: true
+        multiple: true
+        required: true
+        hint: "Update the main picture here"
+
+        
+      - label: "Image 4"
+        name: "image_4"
+        widget: "image"
+        choose_url: true
+        media_library:
+          config:
+            multiple: true
+        multiple: true
+        required: true
+        hint: "Update the main picture here"
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+        required: true
+
+      - label: "Size Guide URL"
+        name: "size_guide_url"
+        widget: "string"
+        required: false
+        hint: "Paste a link to your size guide (e.g., /size_guide.html)."
+
+      - label: "Shopify Buy Button Embed"
+        name: "shopify_embed"
+        widget: "text"
+        required: true
+        hint: "Paste the full Shopify Buy Button `<div>` and `<script>` here."
 
 
