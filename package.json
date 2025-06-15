@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
@@ -12,10 +14,4 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.1"
   },
-
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  }
-  
 }
