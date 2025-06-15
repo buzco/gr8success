@@ -639,7 +639,7 @@ image_1:
 image_2:
   - /img/wygs_tee_front.png
 image_3:
-  - /img/logo_puffy_buzco_web.webp
+  - /img/andre_profile_pic.jpeg
 image_4:
   - /img/scans_air_freshener.webp
 title: Your Mom Tee
