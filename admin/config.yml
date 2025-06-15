@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: buzco/gr8success    
+  name: git-gateway  
   branch: main                
 media_folder: "img"                 # path in your repo (relative to root)
 public_folder: "/img"              # path seen in HTML
