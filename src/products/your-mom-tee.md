@@ -1,5 +1,5 @@
 ---
-shopify_embed: a
+shopify_embed: Coming Soon...
 alt: That beautiful tee my guy
 buy_button: >-
   <div id='product-component-1749948120574'></div>
