@@ -6,7 +6,7 @@ image_2:
 image_3:
   - /img/capy_gif.gif
 image_4:
-  - /img/rotating_logo_buzco.gif
+  - /img/coming_soon_gif_buzco.gif
 title: Capy Tee
 description: |-
   
