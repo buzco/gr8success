@@ -325,7 +325,7 @@ image_2:
 image_3:
   - /img/normalize_chilling_gif.gif
 image_4:
-  - /img/rotating_logo_buzco.gif
+  - /img/coming_soon_gif_buzco.gif
 title: Normalize Chilling Tee
 image: /img/normalize_tee_back.png
 description: Normal people are into chilling. Gr8 success heavily relies on
