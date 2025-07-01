@@ -1,10 +1,10 @@
 ---
 image_1:
-  - /img/capydydsd34r234234234.jpg
+  - /img/capy_tee_buzco_front.png
 image_2:
-  - /img/rotating_logo_buzco.gif
+  - /img/capy_gif.gif
 image_3:
-  - /img/rotating_logo_buzco.gif
+  - /img/capy_gif.gif
 image_4:
   - /img/rotating_logo_buzco.gif
 title: Capy Tee
