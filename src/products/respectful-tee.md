@@ -1,12 +1,12 @@
 ---
 image_1:
-  - /img/respectful_tee_front.png
+  - /img/respectful_tee_buzco_front.png
 image_2:
-  - /img/respectful_tee_back.png
+  - /img/respectful_gif.gif
 image_3:
-  - /img/buzco_keychain-01.png
+  - /img/respectful_gif.gif
 image_4:
-  - /img/i-respectfully-believe-i-am-actually-really-cool.png
+  - /img/rotating_logo_buzco.gif
 title: Respectful Tee
 size_guide_url: https://www.gr8success.xyz/size_guide
 shopify_embed: >-
