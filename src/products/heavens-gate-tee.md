@@ -6,7 +6,7 @@ image_2:
 image_3:
   - /img/galaxy_gif.gif
 image_4:
-  - /img/rotating_logo_buzco.gif
+  - /img/coming_soon_gif_buzco.gif
 title: Heaven's Gate Tee
 description: A vast universe to discover but somehow you cannot come up with a
   topic to talk about, or maybe you just have a lot to talk about but you're
