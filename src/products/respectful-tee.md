@@ -6,7 +6,7 @@ image_2:
 image_3:
   - /img/respectful_gif.gif
 image_4:
-  - /img/rotating_logo_buzco.gif
+  - /img/coming_soon_gif_buzco.gif
 title: Respectful Tee
 size_guide_url: https://www.gr8success.xyz/size_guide
 shopify_embed: Coming Soon...
