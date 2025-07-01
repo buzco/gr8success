@@ -1,12 +1,12 @@
 ---
 image_1:
-  - /img/capy_tee_front.png
+  - /img/capydydsd34r234234234.jpg
 image_2:
-  - /img/capy_tee_back.png
+  - /img/rotating_logo_buzco.gif
 image_3:
   - /img/rotating_logo_buzco.gif
 image_4:
-  - /img/miguel_profile_pic.jpg
+  - /img/rotating_logo_buzco.gif
 title: Capy Tee
 description: |-
   
