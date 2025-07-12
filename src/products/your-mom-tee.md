@@ -1,9 +1,6 @@
 ---
-title: Your Mom Tee
-image: /img/normalize_tee_back.png
+shopify_embed: Coming Soon...
 alt: That beautiful tee my guy
-description: Yes mannnnn
-size_guide: https://github.com/buzco/gr8success
 buy_button: >-
   <div id='product-component-1749948120574'></div>
 
@@ -321,4 +318,17 @@ buy_button: >-
   /*]]>*/
 
   </script>
+image_1:
+  - /img/normalize_chilling_buzco_back.png
+image_2:
+  - /img/normalize_chilling_buzco_front.png
+image_3:
+  - /img/normalize_chilling_gif.gif
+image_4:
+  - /img/coming_soon_gif_buzco.gif
+title: Normalize Chilling Tee
+image: /img/normalize_tee_back.png
+description: Normal people are into chilling. Gr8 success heavily relies on
+  embracing the act of chilling, therefore so should you my guy.
+size_guide: https://github.com/buzco/gr8success
 ---
