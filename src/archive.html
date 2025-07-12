@@ -2,9 +2,21 @@
 layout: layout.njk
 title: Archive
 ---
-      <div class="text-container">Archive for the sake of memories you know? Check back later :* </div>
-  <footer>
-    © 2025 Buzco. All Rights Reserved.
-  </footer>
-  
-  <script src="scripts.js"></script>
+
+<div class="archive-wrapper">
+  <div class="images-block">
+    {% for img in images %}
+      <img src="{{ img.image }}" alt="Archive image" />
+    {% endfor %}
+  </div>
+  <div class="info-block">
+    <div class="title">{{ title }}</div>
+    {% if subtitle %}
+      <div class="subtitle">{{ subtitle }}</div>
+    {% endif %}
+    <div class="date">{{ date }}</div>
+    <div class="description">{{ description }}</div>
+  </div>
+</div>
+
+<script src="scripts.js"></script>

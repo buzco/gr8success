@@ -80,5 +80,24 @@ collections:
         widget: "text"
         required: true
         hint: "Paste the full Shopify Buy Button `<div>` and `<script>` here."
+  
+  - name: "archives"
+    label: "Archives"
+    folder: "src/archive"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        field:
+          label: "Image"
+          name: "image"
+          widget: "image"
+
 
 
