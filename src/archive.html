@@ -3,10 +3,12 @@ layout: layout.njk
 title: Archive
 ---
 
-<div class="archive-wrapper">
+{% set latest = collections.archives | reverse | first %}
+{% if latest %}
+  <div class="archive-wrapper">
   <div class="images-block">
     {% for img in images %}
-      <img src="{{ img.image }}" alt="Archive image" />
+    <img src="{{ img }}" alt="Archive image" />
     {% endfor %}
   </div>
   <div class="info-block">
@@ -18,5 +20,6 @@ title: Archive
     <div class="description">{{ description }}</div>
   </div>
 </div>
+{% endif %}
 
 <script src="scripts.js"></script>
