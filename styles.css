@@ -319,29 +319,26 @@ footer {
 /* ======= Archive CSS ======= */
 .archive-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;      /* Prevent wrapping */
   gap: 2rem;
+  width: 70%;            /* Ensure full width */
+  align-items: flex-start; /* Align items to the top */
 }
 
 .images-block {
-  flex: 0 0 70%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
-.images-block img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px; /* optional, for nicer look */
-}
 
 .info-block {
   flex: 0 0 30%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-align: left; /* Add this line */
 }
 
 .info-block .title {
@@ -351,7 +348,7 @@ footer {
 
 .info-block .subtitle {
   font-size: 1.25rem;
-  color: #666;
+  color: #00c389;
 }
 
 .info-block .date {

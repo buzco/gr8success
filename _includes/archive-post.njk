@@ -1,0 +1,27 @@
+---
+layout: layout.njk
+title: Archive
+---
+<p></p>
+<p></p>
+{% set latest = collections.archives | reverse | first %}
+{% if latest %}
+  <div class="archive-wrapper">
+  <div class="images-block">
+    {% for img in images %}
+    <img src="{{ img }}" alt="Archive image" />
+    {% endfor %}
+  </div>
+  <div class="info-block">
+    <div class="title">{{ title }}</div>
+    <div class="date">{{ date }}</div>
+    {% if subtitle %}
+      <div class="subtitle">{{ subtitle }}</div>
+    {% endif %}
+    
+    <div class="description">{{ description }}</div>
+  </div>
+</div>
+{% endif %}
+
+<script src="scripts.js"></script>
