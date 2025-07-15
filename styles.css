@@ -332,6 +332,13 @@ footer {
   gap: 1rem;
 }
 
+.images-block img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
 
 .info-block {
   flex: 0 0 30%;
