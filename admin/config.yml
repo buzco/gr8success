@@ -83,7 +83,7 @@ collections:
   
   - name: "archives"
     label: "Archives"
-    folder: "srcgi/archive"
+    folder: "src/archive"
     create: true
     slug: "{{slug}}"
     fields:
