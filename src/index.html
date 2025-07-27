@@ -33,13 +33,32 @@ title: Home
           }
         </script>
 
-    <h2>{{ product.data.title }}</h2>
+    <h2>
+    <a href="{{ product.url }}">{{ product.data.title }}</a>
+    </h2>
     <p class="description">{{ product.data.description }}</p>
-    <a href="{{ product.data.size_guide_url }}">Size Guide</a><p></p>
-    <p>{{ product.data.shopify_embed }}</p>
+    <a href="{{ product.size_guide_url }}">Size Guide</a><p></p>
+    <p>{{ product.shopify_embed }}</p>
   </div>
 
+  
+
 {% endfor %}
+
+<style>
+.product-template h2 a,
+.product-template h2 a:visited {
+  color: #00c389;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.product-template h2 a:hover,
+.product-template h2 a:focus {
+  color: #00996e;
+  text-decoration: underline;
+}
+</style>
 <!----
   <div class="product-template">
     <div class="image-viewer">
