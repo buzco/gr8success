@@ -14,8 +14,5 @@ description: >-
 
 
   On equip you'll be guaranteed: +100 speech, +44 wisdom, +40 dance moves, +65 perfect excuses, +50 tolerance for your friends shit, +30 amazing body language, +32,5 reciprocated love, +90 never skip meditation again.
-
-
-  \
 shopify_embed: Coming Soon...
 ---
