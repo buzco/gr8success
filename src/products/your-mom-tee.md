@@ -329,6 +329,6 @@ image_4:
 title: Normalize Chilling Tee
 image: /img/normalize_tee_back.png
 description: Normal people are into chilling. Gr8 success heavily relies on
-  embracing the act of chilling, therefore so should you my guy.
+  embracing the act of chilling, therefore so should you my guy
 size_guide: https://github.com/buzco/gr8success
 ---
