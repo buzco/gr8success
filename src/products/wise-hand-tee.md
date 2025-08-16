@@ -10,6 +10,6 @@ image_4:
 title: Wise Hand Tee
 description: Destined for Gr8 Success, destined to get distracted every single
   time, unable to laugh at someone's horrible joke making it extremely
-  uncomfortable to co-exist for a second. It's in your fate
+  uncomfortable to co-exist for a second. It's in your fate.
 shopify_embed: Coming Soon...
 ---
