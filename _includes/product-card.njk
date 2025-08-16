@@ -1,6 +1,10 @@
 <div class="product-images">
   {% for img in images %}
-    <img src="{{ img.image }}" alt="{{ title }} image">
+    {% if img.image %}
+      <img src="{{ img.image }}" alt="{{ title }} image">
+    {% else %}
+      <img src="{{ img }}" alt="{{ title }} image">
+    {% endif %}
   {% endfor %}
 </div>
 
