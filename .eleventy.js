@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("scripts.js");
   eleventyConfig.addPassthroughCopy("admin");
+
   eleventyConfig.addNunjucksFilter("date", function(dateObj, format = "yyyy-MM-dd") {
     if(typeof dateObj === "string") {
       dateObj = new Date(dateObj);
@@ -32,6 +33,17 @@ module.exports = function(eleventyConfig) {
       input: "src",
       includes: "../_includes",
       output: "_site"
-    }
+    },
+    // ⬇️ Add defaults here
+    frontMatterDefaults: [
+      {
+        scope: {
+          path: "products" // applies to all .md inside src/products/
+        },
+        values: {
+          layout: "product-card.njk"
+        }
+      }
+    ]
   };
 };

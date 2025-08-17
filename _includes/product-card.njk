@@ -1,37 +1,41 @@
-<div class="product-images">
-  {% for img in images %}
-    {% if img.image %}
-      <img src="{{ img.image }}" alt="{{ title }} image">
-    {% else %}
-      <img src="{{ img }}" alt="{{ title }} image">
-    {% endif %}
-  {% endfor %}
-</div>
+{% extends "layout.njk" %}
 
-<h1 class="product-title">{{ title }}</h1>
-<div class="product-block">
-  {{ description | safe }}
-</div>
+{% block content %}
+  <div class="product-images">
+    {% for img in images %}
+      {% if img.image %}
+        <img src="{{ img.image }}" alt="{{ title }} image">
+      {% else %}
+        <img src="{{ img }}" alt="{{ title }} image">
+      {% endif %}
+    {% endfor %}
+  </div>
 
-<div class="product-block">
-  <p><em>(icon or gif)</em><br>
-  <a href="/why-our-tshirts" style="color: #00c389; text-decoration: underline;">Why are our t-shirts different?</a></p>
-</div>
+  <h1 class="product-title">{{ title }}</h1>
+  <div class="product-block">
+    {{ description | safe }}
+  </div>
 
-<div class="product-block">
-  {{ shopify_embed | safe }}
-</div>
+  <div class="product-block">
+    <p><em>(icon or gif)</em><br>
+    <a href="/why-our-tshirts" style="color: #00c389; text-decoration: underline;">Why are our t-shirts different?</a></p>
+  </div>
 
-<div class="product-block product-dropdown">
-  <details>
-    <summary>How to wash our garments</summary>
-    <p>Wash cold, inside out, no dryer. Iron inside-out if needed.</p>
-  </details>
-</div>
+  <div class="product-block">
+    {{ shopify_embed | safe }}
+  </div>
 
-<div class="product-block product-dropdown">
-  <details>
-    <summary>Size guide</summary>
-    <p><a href="{{ size_guide_url }}" style="color: #00c389; text-decoration: underline;">Click here to view the size guide</a></p>
-  </details>
-</div>
+  <div class="product-block product-dropdown">
+    <details>
+      <summary>How to wash our garments</summary>
+      <p>Wash cold, inside out, no dryer. Iron inside-out if needed.</p>
+    </details>
+  </div>
+
+  <div class="product-block product-dropdown">
+    <details>
+      <summary>Size guide</summary>
+      <p><a href="{{ size_guide_url }}" style="color: #00c389; text-decoration: underline;">Click here to view the size guide</a></p>
+    </details>
+  </div>
+{% endblock %}
