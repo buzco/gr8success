@@ -405,6 +405,7 @@ footer {
 .product-images img {
   width: 100%;
   height: auto;
+  display: block;
   border: 1px solid #08331f;
 }
 
