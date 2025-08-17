@@ -374,8 +374,10 @@ footer {
 /* ======= product card css ======= */
 .product-block {
   border: 1px solid #08331f;
-  padding: 20px;
-  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #080e0c;
   border-bottom: solid 3px #03241a;
   border-right: solid 3px #03241a;
@@ -383,8 +385,8 @@ footer {
   border-left: solid 3px #00c389;
   box-shadow: 2px 2px 0px #030100;
   text-align: left;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 1px;
+  margin-top: 30px;
 
 }
 
