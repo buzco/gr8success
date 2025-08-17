@@ -28,22 +28,11 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("./src/archive/*.md");
   });
 
-  return {
-    dir: {
-      input: "src",
-      includes: "_includes",
-      output: "_site"
-    },
-    // Add defaults here
-    frontMatterDefaults: [
-      {
-        scope: {
-          path: "products" // applies to all .md inside src/products/
-        },
-        values: {
-          layout: "product-card.njk"
-        }
-      }
-    ]
-  };
+ return {
+  dir: {
+    input: "src",
+    includes: "../_includes",
+    output: "_site"
+  }
+};
 };

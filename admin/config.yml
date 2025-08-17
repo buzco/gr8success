@@ -14,7 +14,10 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "product-card.njk"
       - label: "Images"
         name: "images"
         widget: "list"

@@ -50,7 +50,7 @@
   </div>
 
 
- {{ content | safe }} <!-- CONTENT AREA!!! VERY IMPORTANT -->
+{% block content %}{{ content | safe }}{% endblock %} <!-- CONTENT AREA!!! VERY IMPORTANT -->
 
 
 
