@@ -328,12 +328,12 @@ shopify_embed: >-
 product_specs: |-
   `<ul>`
 
-  `  <li>220gsm heavyweight cotton</li>`
+  ` <p> <li>220gsm heavyweight cotton</li> </p>`
 
-  `  <li>Double-stitched ribbed collar</li>`
+  ` <p> <li>Double-stitched ribbed collar</li> </p>`
 
-  `  <li>Single-stitch hems</li>
-    <li>Made in Portugal</li>`
+  ` <p> <li>Single-stitch hems</li> </p>
+   <p> <li>Made in Portugal</li> </p>`
 
   `</ul>`
 ---
