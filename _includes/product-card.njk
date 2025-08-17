@@ -15,15 +15,16 @@
 <div class="info-block">
   <h1 class="product-title">{{ title }}</h1>
   <div class="product-block">
+    {{ price | safe}}
+    
     {{ description | safe }}
-  </div>
-  <div class="product-block">
+
     {{ shopify_embed | safe }}
+
+    {{ product_specs | safe }}
+  
   </div>
-<div class="product-block">
-    <p><em>(icon or gif)</em><br>
-    <a href="/why-our-tshirts" style="color: #00c389; text-decoration: underline;">Why are our t-shirts different?</a></p>
-  </div>
+
   <div class="product-block product-dropdown">
     <details>
       <summary>How to wash our garments</summary>
