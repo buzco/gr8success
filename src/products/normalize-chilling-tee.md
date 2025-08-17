@@ -4,7 +4,9 @@ images:
   - image: /img/normalize_chilling_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Normalize Chilling Tee
-description: Coming Soon
+description: Normal People are into chilling. If you are not into chilling
+  probably you should be by now. Turn off that damn phone, go outside, lie on
+  the ground doing nothing.
 shopify_embed: >-
   <div id='product-component-1755451426324'></div>
 
