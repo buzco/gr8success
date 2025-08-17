@@ -10,36 +10,36 @@ title: Home
 {% for product in collections.products %}
   <div class="product-template">
     <div class="image-viewer">
-      <img src="{{ product.data.image_1 }}" alt="{{ product.data.title }}">
+      <img src="{{ product.data.images[0].image }}" alt="{{ product.data.title }}">
     </div>
 
     <div class="image-thumb">
-      <img src="{{ product.data.image_1 }}" onmouseover="updateImage(this)" class="active">
-      <img src="{{ product.data.image_2 }}" onmouseover="updateImage(this)">
-      <img src="{{ product.data.image_3 }}" onmouseover="updateImage(this)">
-      <img src="{{ product.data.image_4 }}" onmouseover="updateImage(this)">
+      {% for image in product.data.images | slice(0, 4) %}
+        <img src="{{ image.image }}" onmouseover="updateImage(this)" {% if loop.index0 == 0 %}class="active"{% endif %}>
+      {% endfor %}
     </div>
 
     <script>
-          function updateImage(ele) {
-            const product = ele.closest(".product-template");
-            const viewer = product.querySelector(".image-viewer img");
-            const thumbs = product.querySelectorAll(".image-thumb img");
+      function updateImage(ele) {
+        const product = ele.closest(".product-template");
+        const viewer = product.querySelector(".image-viewer img");
+        const thumbs = product.querySelectorAll(".image-thumb img");
 
-            viewer.src = ele.src;
+        viewer.src = ele.src;
 
-            thumbs.forEach(img => img.classList.remove("active"));
-            ele.classList.add("active");
-          }
-        </script>
+        thumbs.forEach(img => img.classList.remove("active"));
+        ele.classList.add("active");
+      }
+    </script>
 
     <h2>
-    <a href="{{ product.url }}">{{ product.data.title }}</a>
+      <a href="{{ product.url }}">{{ product.data.title }}</a>
     </h2>
     <p class="description">{{ product.data.description }}</p>
-    <a href="{{ product.size_guide_url }}">Size Guide</a><p></p>
-    <p>{{ product.shopify_embed }}</p>
+    <a href="{{ product.data.size_guide_url }}">Size Guide</a><p></p>
+    <p>{{ product.data.shopify_embed }}</p>
   </div>
+{% endfor %}
 
   
 
