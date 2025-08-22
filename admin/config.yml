@@ -55,6 +55,11 @@ collections:
         widget: "markdown"
         required: true
 
+      - label: "Size Guide"
+        name: "size_guide_graph"
+        widget: "image"
+        choose_url: true
+
   - name: "archives"
     label: "Archives"
     folder: "src/archive"
