@@ -108,12 +108,15 @@ body {
 }
 
 .image-viewer {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: 400px;     /* keep your desktop size */
+  aspect-ratio: 1 / 1;  /* keep it square without fixed height */
+  height: auto;         /* let aspect-ratio control height */
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; 
+  overflow: hidden;
+  margin: 0 auto;       /* center inside template */
 }
 .image-viewer img {
   width: 100%;
@@ -122,22 +125,30 @@ body {
   display: block;
 }
 
+/* Thumbnails: allow scroll instead of overflow */
 .thumbnail-row {
   margin-top: 10px;
   display: flex;
   gap: 10px;
+  overflow-x: auto;                /* allow scroll instead of overflow */
+  overflow-y: hidden;              /* hide vertical overflow from hover */
+  -webkit-overflow-scrolling: touch;
 }
+
 .thumbnail-row img {
+  flex: 0 0 auto;                  
   width: 60px;
   height: 60px;
   object-fit: cover;
   cursor: pointer;
   border: 1px solid var(--border-color);
-  transition: 0.3s;
+  transition: transform 0.3s, border-color 0.3s;
+  transform-origin: center;        /* scale grows evenly */
 }
+
 .thumbnail-row img:hover {
   border-color: var(--primary-color);
-  transform: scale(1.5);
+  transform: scale(1.25);          /* tamer scale so it stays neat */
 }
 
 .image-thumb {
@@ -171,11 +182,12 @@ body {
 /* === PRODUCT TEMPLATE === */
 /* ====================== */
 .product-template {
-  flex: 1 1 400px;
-  max-width: 500px;
-  min-width: 300px;
+  width: 100%;
+  max-width: 500px;     /* your original cap */
+  min-width: 0;         /* allow shrinking */
+  margin: 0 auto;
+  box-sizing: border-box;
 
-  margin: 0;
   padding: 20px;
   text-align: left;
 
@@ -190,9 +202,11 @@ body {
 
 .product-image {
   width: 100%;
-  max-width: 300px;
+  max-width: 100%; /* allow full width of container */
   height: auto;
   border-bottom: 1px solid var(--border-color);
+  display: block;
+  margin: 0 auto;
 }
 
 /* ====================== */
@@ -377,7 +391,8 @@ footer {
 @media (max-width: 768px) {
   .archive-wrapper {
     flex-direction: column; /* stack gallery on top of info */
-    width: 100%;
+    width: 90%;
+    align-items: center;
   }
 
   .images-block {
@@ -392,8 +407,8 @@ footer {
   }
 
   .images-block img {
-    flex: 0 0 100%;       /* each image takes full width of screen */
-    max-width: 100%;
+    flex: 0 0 95%;       /* each image takes full width of screen */
+    max-width: 95%;
     height: auto;
     object-fit: contain;
     scroll-snap-align: center;
@@ -401,7 +416,8 @@ footer {
 
   .info-block {
     flex: none;
-    margin-top: 20px; /* spacing below gallery */
-    width: 100%;
+    margin-top: 10px; /* spacing below gallery */
+    width: 80%;
+    
   }
 }
