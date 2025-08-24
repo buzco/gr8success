@@ -12,6 +12,6 @@ description: |-
   "Got Laid with it!" - Nobody, yet.
 shopify_embed: www.gr8success.xyz
 product_specs: Smells like gr8 success. No but seriously, it smells like the
-  color green, we can't really explain it
+  color green, we can't really explain it.
 size_guide_graph: /img/rotating_logo_buzco.gif
 ---
