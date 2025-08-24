@@ -8,6 +8,6 @@ title: Wise Hand Single-Stitch Tee
 price: 32 €
 description: Palm reading might surprise you how much information is simply not there ;D
 shopify_embed: www.gr8success.xyz
-product_specs: a
+product_specs: aa
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---
