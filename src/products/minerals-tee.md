@@ -7,7 +7,7 @@ images:
 title: Minerals Single-Stitch Tee
 price: 32 €
 description: This t-shirt is equipped with all our combined powerful mineral
-  energies, specifically crafted for those who seek for gr8 success.
+  energies, specifically crafted for those who seek for gr8 success
 shopify_embed: www.gr8success.xyz
 product_specs: >-
   .
