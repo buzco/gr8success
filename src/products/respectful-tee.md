@@ -4,7 +4,7 @@ images:
   - image: /img/respectful_tee_buzco_front.png
   - image: /img/respectful_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
-title: Respectful Tee
+title: Respectful Single-Stitch Tee
 price: 32 €
 description: 'Gr8 advice: If you place "respectfully" before any sentence you
   can get away anything.'
