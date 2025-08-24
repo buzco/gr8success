@@ -9,6 +9,9 @@ price: 32 €
 description: This t-shirt is equipped with all our combined powerful mineral
   energies, specifically crafted for those who seek for gr8 success.
 shopify_embed: www.gr8success.xyz
-product_specs: .
+product_specs: >-
+  .
+
+  <ul><li>220gsm heavyweight cotton</li><li>Double-stitched ribbed collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---
