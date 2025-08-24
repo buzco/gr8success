@@ -7,7 +7,7 @@ title: Normalize Chilling Single-Stitch Tee
 price: 32 €
 description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
-  the ground doing nothing.
+  the ground doing nothing, it's nice
 shopify_embed: >-
   <div id='product-component-1755451426324'></div>
 
