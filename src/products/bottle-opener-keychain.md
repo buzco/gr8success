@@ -8,6 +8,6 @@ title: Bottle-Opener Keychain
 price: 10 €
 description: It works, I can confirm
 shopify_embed: www.gr8success.xyz
-product_specs: a
+product_specs: aa
 size_guide_graph: /img/rotating_logo_buzco.gif
 ---
