@@ -3,7 +3,7 @@ images:
   - image: /img/normalize_chilling_buzco_back.png
   - image: /img/normalize_chilling_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
-title: Normalize Chilling Tee
+title: Normalize Chilling Single-Stitch Tee
 price: 32 €
 description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
