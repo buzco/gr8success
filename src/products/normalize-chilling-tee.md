@@ -4,7 +4,7 @@ images:
   - image: /img/normalize_chilling_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Normalize Chilling Tee
-price: 35 €
+price: 32 €
 description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
   the ground doing nothing.
@@ -327,4 +327,5 @@ shopify_embed: >-
   </script>
 product_specs: "`<ul><li>220gsm heavyweight cotton</li><li>Double-stitched
   ribbed collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>`"
+size_guide_graph: /img/tshirts_sizing_guide.png
 ---
