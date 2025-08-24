@@ -7,7 +7,7 @@ images:
 title: Respectful Single-Stitch Tee
 price: 32 €
 description: 'Gr8 advice: If you place "respectfully" before any sentence you
-  can get away anything.'
+  can get away anything'
 shopify_embed: www.gr8success.xyz
 product_specs: >-
   
