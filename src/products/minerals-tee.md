@@ -4,7 +4,7 @@ images:
   - image: /img/minerals_tee_buzco_front.png
   - image: /img/minerals_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
-title: Minerals Tee
+title: Minerals Single-Stitch Tee
 price: 32 €
 description: This t-shirt is equipped with all our combined powerful mineral
   energies, specifically crafted for those who seek for gr8 success.
