@@ -1,5 +1,6 @@
 ---
 layout: product-card.njk
+order: 8
 images:
   - image: /img/wygs_tee_back.png
 title: WYGS Tee
