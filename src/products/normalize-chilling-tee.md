@@ -1,4 +1,5 @@
 ---
+order: 2
 images:
   - image: /img/normalize_chilling_buzco_back.png
   - image: /img/normalize_chilling_gif.gif
