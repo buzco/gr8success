@@ -1,5 +1,6 @@
 ---
 layout: product-card.njk
+order: 3
 images:
   - image: /img/buzco_keychain-01.png
   - image: /img/rotating_logo_buzco.gif
