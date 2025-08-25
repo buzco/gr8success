@@ -1,15 +1,14 @@
 ---
+layout: product-card.njk
 images:
-  - image: /img/normalize_chilling_buzco_back.png
-  - image: /img/normalize_chilling_gif.gif
+  - image: /img/wise_hand_tee_buzco_back.png
+  - image: /img/wise_hand_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
-title: Normalize Chilling Single-Stitch Tee
+title: Wise Hand Single-Stitch Tee
 price: 32 €
-description: Normal People are into chilling. If you are not into chilling
-  probably you should be by now. Turn off that damn phone, go outside, lie on
-  the ground doing nothing, it's nice
+description: Palm reading might surprise you how much information is simply not there ;D
 shopify_embed: >-
-  <div id='product-component-1756081335440'></div>
+  <div id='product-component-1756081200267'></div>
 
   <script type="text/javascript">
 
@@ -40,8 +39,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '9958871728467',
-          node: document.getElementById('product-component-1756081335440'),
+          id: '10075308884307',
+          node: document.getElementById('product-component-1756081200267'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -326,7 +325,6 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: "`<ul><li>220gsm heavyweight cotton</li><li>Double-stitched
-  ribbed collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>`"
+product_specs: a
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---

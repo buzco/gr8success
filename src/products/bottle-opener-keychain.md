@@ -1,15 +1,14 @@
 ---
+layout: product-card.njk
 images:
-  - image: /img/normalize_chilling_buzco_back.png
-  - image: /img/normalize_chilling_gif.gif
+  - image: /img/buzco_keychain-01.png
+  - image: /img/rotating_logo_buzco.gif
   - image: /img/coming_soon_gif_buzco.gif
-title: Normalize Chilling Single-Stitch Tee
-price: 32 €
-description: Normal People are into chilling. If you are not into chilling
-  probably you should be by now. Turn off that damn phone, go outside, lie on
-  the ground doing nothing, it's nice
+title: Bottle-Opener Keychain
+price: 10 €
+description: It works, I can confirm
 shopify_embed: >-
-  <div id='product-component-1756081335440'></div>
+  <div id='product-component-1756081172071'></div>
 
   <script type="text/javascript">
 
@@ -40,8 +39,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '9958871728467',
-          node: document.getElementById('product-component-1756081335440'),
+          id: '9862490194259',
+          node: document.getElementById('product-component-1756081172071'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -326,7 +325,6 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: "`<ul><li>220gsm heavyweight cotton</li><li>Double-stitched
-  ribbed collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>`"
-size_guide_graph: /img/tshirts_sizing_guide.png
+product_specs: aa
+size_guide_graph: /img/rotating_logo_buzco.gif
 ---

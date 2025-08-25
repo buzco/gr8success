@@ -1,15 +1,17 @@
 ---
+layout: product-card.njk
 images:
-  - image: /img/normalize_chilling_buzco_back.png
-  - image: /img/normalize_chilling_gif.gif
-  - image: /img/coming_soon_gif_buzco.gif
-title: Normalize Chilling Single-Stitch Tee
-price: 32 €
-description: Normal People are into chilling. If you are not into chilling
-  probably you should be by now. Turn off that damn phone, go outside, lie on
-  the ground doing nothing, it's nice
+  - image: /img/air_freshener_buzco_front-01-01.png
+  - image: /img/air_freshener_buzco_back-01.png
+  - image: /img/rotating_logo_buzco.gif
+title: Breeze o' Gr8 Success Air Freshener
+price: 5 €
+description: |-
+  Meant for your car, your bad breath, your stinky bedroom, you name it
+
+  "Got Laid with it!" - Nobody, yet.
 shopify_embed: >-
-  <div id='product-component-1756081335440'></div>
+  <div id='product-component-1756081281785'></div>
 
   <script type="text/javascript">
 
@@ -40,8 +42,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '9958871728467',
-          node: document.getElementById('product-component-1756081335440'),
+          id: '9862501171539',
+          node: document.getElementById('product-component-1756081281785'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -326,7 +328,7 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: "`<ul><li>220gsm heavyweight cotton</li><li>Double-stitched
-  ribbed collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>`"
-size_guide_graph: /img/tshirts_sizing_guide.png
+product_specs: Smells like gr8 success. No but seriously, it smells like the
+  color green, we can't really explain it.
+size_guide_graph: /img/rotating_logo_buzco.gif
 ---

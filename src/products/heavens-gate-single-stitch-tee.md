@@ -1,15 +1,16 @@
 ---
+layout: product-card.njk
 images:
-  - image: /img/normalize_chilling_buzco_back.png
-  - image: /img/normalize_chilling_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
-title: Normalize Chilling Single-Stitch Tee
+  - image: /img/galaxy_gif.gif
+  - image: /img/heavens_gate_tee_buzco_front.png
+title: Heaven's Gate Single-Stitch Tee
 price: 32 €
-description: Normal People are into chilling. If you are not into chilling
-  probably you should be by now. Turn off that damn phone, go outside, lie on
-  the ground doing nothing, it's nice
+description: Such a vast universe of interesting things to talk about, but
+  somehow the conversation runs dry. Not your fault, they just don't get you
+  probably
 shopify_embed: >-
-  <div id='product-component-1756081335440'></div>
+  <div id='product-component-1756081074185'></div>
 
   <script type="text/javascript">
 
@@ -40,8 +41,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '9958871728467',
-          node: document.getElementById('product-component-1756081335440'),
+          id: '10075310883155',
+          node: document.getElementById('product-component-1756081074185'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -326,7 +327,6 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: "`<ul><li>220gsm heavyweight cotton</li><li>Double-stitched
-  ribbed collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>`"
+product_specs: aaa
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---
