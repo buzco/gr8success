@@ -9,7 +9,7 @@ price: 32€
 description: Capybaras are the most unintentional nonchalant and chill creatures
   in this world. Think about it
 shopify_embed: >-
-  <div id='product-component-1756081200267'></div>
+  <div id='product-component-1756081258998'></div>
 
   <script type="text/javascript">
 
@@ -40,8 +40,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '10075308884307',
-          node: document.getElementById('product-component-1756081200267'),
+          id: '10075312652627',
+          node: document.getElementById('product-component-1756081258998'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
