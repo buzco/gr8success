@@ -1,5 +1,6 @@
 ---
 layout: product-card.njk
+order: 7
 images:
   - image: /img/capy_tee_buzco_front.png
   - image: /img/capy_gif.gif
