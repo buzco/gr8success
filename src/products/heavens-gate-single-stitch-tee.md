@@ -1,5 +1,6 @@
 ---
 layout: product-card.njk
+order: 9
 images:
   - image: /img/coming_soon_gif_buzco.gif
   - image: /img/galaxy_gif.gif
