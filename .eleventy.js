@@ -13,11 +13,6 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(format);
   });
 
-  // Products collection
-  eleventyConfig.addCollection("products", function(collection) {
-    return collection.getFilteredByGlob("./src/products/*.md");
-  });
-
   // Shop collection
   eleventyConfig.addCollection("shop", function(collection) {
     return collection.getFilteredByGlob("./src/shop/*.md");
@@ -27,8 +22,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("archives", function(collection) {
     return collection.getFilteredByGlob("./src/archive/*.md");
   });
-
-  eleventyConfig.addCollection("productsSorted", (collectionApi) => {
+  
+  // Products collection
+  eleventyConfig.addCollection("products", (collectionApi) => {
     return collectionApi.getFilteredByGlob("src/products/*.md")
       .sort((a, b) => {
         const ao = a.data.order ?? 9999;
@@ -36,7 +32,7 @@ module.exports = function(eleventyConfig) {
         return ao - bo;
       });
   });
-  
+
  return {
   dir: {
     input: "src",
