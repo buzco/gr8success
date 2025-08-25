@@ -7,7 +7,7 @@ price: 25 €
 description: Wishing gr8 success to someone is a superior act of love. It's like
   wishing good luck cleaning all those dishes, you'll need it
 shopify_embed: >-
-  <div id='product-component-1756080765442'></div>
+  <div id='product-component-1756081514532'></div>
 
   <script type="text/javascript">
 
@@ -39,7 +39,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '9860582834515',
-          node: document.getElementById('product-component-1756080765442'),
+          node: document.getElementById('product-component-1756081514532'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -57,7 +57,7 @@ shopify_embed: >-
           "color": "#00c389"
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -90,8 +90,6 @@ shopify_embed: >-
       },
       "contents": {
         "img": false,
-        "button": false,
-        "buttonWithQuantity": true,
         "title": false,
         "price": false
       },
@@ -124,7 +122,7 @@ shopify_embed: >-
           }
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -186,7 +184,7 @@ shopify_embed: >-
     "cart": {
       "styles": {
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -260,7 +258,7 @@ shopify_embed: >-
     "toggle": {
       "styles": {
         "toggle": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "background-color": "#ff3c76",
           ":hover": {
             "background-color": "#e6366a"
