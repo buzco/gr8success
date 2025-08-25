@@ -327,6 +327,7 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: aa
+product_specs: <ul><li>220gsm heavyweight cotton</li><li>Double-stitched ribbed
+  collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---
