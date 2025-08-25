@@ -31,15 +31,20 @@
   </div>
 
   <div class="product-block product-dropdown">
-    <details>
-      <summary>Size guide</summary>
-      {% if size_guide_graph %}
+   {% if size_guide_graph %}
+<details class="size-guide">
+  <summary>Size guide</summary>
+  <p></p>
+  <div class="size-guide__media">
+    <img
+      src="{{ size_guide_graph | url }}"
+      alt="Size guide for {{ title }}"
+      loading="lazy"
+      decoding="async">
+  </div>
+</details>
+{% endif %}
 
-      <img src="{{ size_guide_graph | url }}" alt="Size guide for {{ title }}" loading="lazy" decoding="async">
-    </details>
-    {% endif %}
-
-    </details>
   </div>
 </div>
 

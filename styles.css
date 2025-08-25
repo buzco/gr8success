@@ -391,6 +391,19 @@ footer {
   color: var(--primary-color);
 }
 
+.size-guide { max-width: 100%; }
+.size-guide__media {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;        /* stop bleed */
+  box-sizing: border-box;
+}
+.size-guide__media img {
+  display: block;
+  width: 100%;             /* scales to card width */
+  max-width: 100%;
+  height: auto;            /* preserve aspect ratio */
+}
 /* Mobile archive wrapper */
 @media (max-width: 768px) {
   .archive-wrapper {
