@@ -1,5 +1,6 @@
 ---
 layout: product-card.njk
+order: 4
 images:
   - image: /img/wise_hand_tee_buzco_back.png
   - image: /img/wise_hand_gif.gif
