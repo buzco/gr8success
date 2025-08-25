@@ -9,7 +9,7 @@ description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
   the ground doing nothing, it's nice
 shopify_embed: >-
-  <div id='product-component-1756080872502'></div>
+  <div id='product-component-1756081335440'></div>
 
   <script type="text/javascript">
 
@@ -41,7 +41,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '9958871728467',
-          node: document.getElementById('product-component-1756080872502'),
+          node: document.getElementById('product-component-1756081335440'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -59,7 +59,7 @@ shopify_embed: >-
           "color": "#00c389"
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -92,8 +92,6 @@ shopify_embed: >-
       },
       "contents": {
         "img": false,
-        "button": false,
-        "buttonWithQuantity": true,
         "title": false,
         "price": false
       },
@@ -126,7 +124,7 @@ shopify_embed: >-
           }
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -188,7 +186,7 @@ shopify_embed: >-
     "cart": {
       "styles": {
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -262,7 +260,7 @@ shopify_embed: >-
     "toggle": {
       "styles": {
         "toggle": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "background-color": "#ff3c76",
           ":hover": {
             "background-color": "#e6366a"
