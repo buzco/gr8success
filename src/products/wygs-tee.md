@@ -7,7 +7,7 @@ price: 25 €
 description: Wishing gr8 success to someone is a superior act of love. It's like
   wishing good luck cleaning all those dishes, you'll need it
 shopify_embed: >-
-  <div id='product-component-1756079931373'></div>
+  <div id='product-component-1756080765442'></div>
 
   <script type="text/javascript">
 
@@ -39,7 +39,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '9860582834515',
-          node: document.getElementById('product-component-1756079931373'),
+          node: document.getElementById('product-component-1756080765442'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -90,6 +90,8 @@ shopify_embed: >-
       },
       "contents": {
         "img": false,
+        "button": false,
+        "buttonWithQuantity": true,
         "title": false,
         "price": false
       },
@@ -248,7 +250,8 @@ shopify_embed: >-
       "text": {
         "title": "Your Goodies",
         "total": "Subtotal",
-        "button": "Checkout"
+        "button": "Checkout",
+        "noteDescription": "Tell an actual funny joke and get a discount"
       },
       "contents": {
         "note": true
