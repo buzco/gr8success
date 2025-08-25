@@ -28,9 +28,22 @@
     {{ description | safe }}
   </div>
 
-  {% if size_guide_url %}
-    <p><a href="{{ size_guide_url }}" target="_blank">Size Guide & Other Specs</a></p>
-  {% endif %}
-
+  <a class="btn-coming-soon" aria-disabled="true" role="button" tabindex="-1">coming soon</a>
+  <style>
+    .btn-coming-soon {
+      background: #cc305e;
+      color: #fff;
+      border-radius: 9999px;
+      padding: 0.75rem 1.25rem;
+      font: 600 0.95rem/1 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      letter-spacing: .02em;
+      text-transform: lowercase;
+      opacity: 0.9;
+      cursor: not-allowed;
+      pointer-events: none; /* ensures no click */
+      text-decoration: none;
+      display: inline-block;
+    }
+  </style>
   {{ shopify_embed | safe }}
 </div>

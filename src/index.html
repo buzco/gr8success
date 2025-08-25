@@ -55,7 +55,48 @@ title: Home
       <a href="{{ product.url }}#souvenir">{{ product.data.title }}</a>
     </h2>
     <p class="description">{{ product.data.description }}</p>
-    <a href="{{ product.data.size_guide_url }}">Size Guide</a><p></p>
+ 
+    <button class="btn-coming-soon" type="button" disabled aria-disabled="true">
+  Coming Soon
+</button>
+
+<style>
+  .btn-coming-soon {
+    /* colors */
+    --base: #009c6d;      /* ≈20% darker than #00c389 */
+    --highlight: #00c389; /* bevel highlight */
+    --shadow: #007a55;    /* bevel shadow */
+
+    background: var(--base);
+    color: #000; /* black text */
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .02em;
+
+    border-radius: 0;     /* sharp corners */
+    border-top: 4px solid var(--highlight);
+    border-left: 4px solid var(--highlight);
+    border-bottom: 4px solid var(--shadow);
+    border-right: 4px solid var(--shadow);
+
+    padding: 0.75rem 1.1rem;
+    line-height: 1;
+    display: inline-block;
+
+    cursor: not-allowed;  /* communicates disabled */
+    pointer-events: none; /* truly non-clickable */
+    user-select: none;
+    /* crisp outer hairline for contrast on varied backgrounds */
+    box-shadow: 0 0 0 1px #005a3f inset;
+  }
+
+  .btn-coming-soon:hover,
+  .btn-coming-soon:focus {
+    outline: none; /* no interaction states */
+  }
+</style>
+
     <p>{{ product.data.shopify_embed }}</p>
   </div>
 {% endfor %}
