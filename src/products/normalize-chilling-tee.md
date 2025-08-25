@@ -9,7 +9,7 @@ description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
   the ground doing nothing, it's nice
 shopify_embed: >-
-  <div id='product-component-1755451426324'></div>
+  <div id='product-component-1756080872502'></div>
 
   <script type="text/javascript">
 
@@ -41,7 +41,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '9958871728467',
-          node: document.getElementById('product-component-1755451426324'),
+          node: document.getElementById('product-component-1756080872502'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -59,19 +59,19 @@ shopify_embed: >-
           "color": "#00c389"
         },
         "button": {
-          "font-family": "Times New Roman, serif",
+          "font-family": "Arial, sans-serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           },
-          "background-color": "#00c389",
+          "background-color": "#ff3c76",
           ":focus": {
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           },
           "border-radius": "0px",
-          "padding-left": "14px",
-          "padding-right": "14px"
+          "padding-left": "24px",
+          "padding-right": "24px"
         },
         "price": {
           "font-family": "Times New Roman, serif",
@@ -92,6 +92,8 @@ shopify_embed: >-
       },
       "contents": {
         "img": false,
+        "button": false,
+        "buttonWithQuantity": true,
         "title": false,
         "price": false
       },
@@ -124,19 +126,19 @@ shopify_embed: >-
           }
         },
         "button": {
-          "font-family": "Times New Roman, serif",
+          "font-family": "Arial, sans-serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           },
-          "background-color": "#00c389",
+          "background-color": "#ff3c76",
           ":focus": {
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           },
           "border-radius": "0px",
-          "padding-left": "14px",
-          "padding-right": "14px"
+          "padding-left": "24px",
+          "padding-right": "24px"
         },
         "title": {
           "font-family": "Helvetica Neue, sans-serif",
@@ -186,15 +188,15 @@ shopify_embed: >-
     "cart": {
       "styles": {
         "button": {
-          "font-family": "Times New Roman, serif",
+          "font-family": "Arial, sans-serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           },
-          "background-color": "#00c389",
+          "background-color": "#ff3c76",
           ":focus": {
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           },
           "border-radius": "0px"
         },
@@ -250,7 +252,8 @@ shopify_embed: >-
       "text": {
         "title": "Your Goodies",
         "total": "Subtotal",
-        "button": "Checkout"
+        "button": "Checkout",
+        "noteDescription": "Tell an actual funny joke and get a discount"
       },
       "contents": {
         "note": true
@@ -259,13 +262,13 @@ shopify_embed: >-
     "toggle": {
       "styles": {
         "toggle": {
-          "font-family": "Times New Roman, serif",
-          "background-color": "#00c389",
+          "font-family": "Arial, sans-serif",
+          "background-color": "#ff3c76",
           ":hover": {
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           },
           ":focus": {
-            "background-color": "#00b07b"
+            "background-color": "#e6366a"
           }
         },
         "count": {
