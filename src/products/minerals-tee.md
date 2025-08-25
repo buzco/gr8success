@@ -1,5 +1,6 @@
 ---
 layout: product-card.njk
+order: 1
 images:
   - image: /img/minerals_tee_buzco_front.png
   - image: /img/minerals_gif.gif
