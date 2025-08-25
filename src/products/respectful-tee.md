@@ -9,7 +9,7 @@ price: 32 €
 description: 'Gr8 advice: If you place "respectfully" before any sentence you
   can get away anything'
 shopify_embed: >-
-  <div id='product-component-1756080902705'></div>
+  <div id='product-component-1756081358170'></div>
 
   <script type="text/javascript">
 
@@ -41,7 +41,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '10075307934035',
-          node: document.getElementById('product-component-1756080902705'),
+          node: document.getElementById('product-component-1756081358170'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -59,7 +59,7 @@ shopify_embed: >-
           "color": "#00c389"
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -92,8 +92,6 @@ shopify_embed: >-
       },
       "contents": {
         "img": false,
-        "button": false,
-        "buttonWithQuantity": true,
         "title": false,
         "price": false
       },
@@ -126,7 +124,7 @@ shopify_embed: >-
           }
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -188,7 +186,7 @@ shopify_embed: >-
     "cart": {
       "styles": {
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -262,7 +260,7 @@ shopify_embed: >-
     "toggle": {
       "styles": {
         "toggle": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "background-color": "#ff3c76",
           ":hover": {
             "background-color": "#e6366a"
