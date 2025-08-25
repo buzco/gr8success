@@ -18,6 +18,14 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "product-card.njk"
+
+      - label: "Order"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        hint: "Lower numbers show first in the shop"
+
       - label: "Images"
         name: "images"
         widget: "list"
@@ -28,6 +36,7 @@ collections:
             choose_url: true
         required: true
         hint: "Add one or more product images here"
+
 
       - label: "Title"
         name: "title"
