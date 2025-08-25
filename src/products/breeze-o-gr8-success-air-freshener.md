@@ -11,7 +11,7 @@ description: |-
 
   "Got Laid with it!" - Nobody, yet.
 shopify_embed: >-
-  <div id='product-component-1756080713743'></div>
+  <div id='product-component-1756081281785'></div>
 
   <script type="text/javascript">
 
@@ -43,7 +43,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '9862501171539',
-          node: document.getElementById('product-component-1756080713743'),
+          node: document.getElementById('product-component-1756081281785'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -61,7 +61,7 @@ shopify_embed: >-
           "color": "#00c389"
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -94,8 +94,6 @@ shopify_embed: >-
       },
       "contents": {
         "img": false,
-        "button": false,
-        "buttonWithQuantity": true,
         "title": false,
         "price": false
       },
@@ -128,7 +126,7 @@ shopify_embed: >-
           }
         },
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -190,7 +188,7 @@ shopify_embed: >-
     "cart": {
       "styles": {
         "button": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
@@ -264,7 +262,7 @@ shopify_embed: >-
     "toggle": {
       "styles": {
         "toggle": {
-          "font-family": "Arial, sans-serif",
+          "font-family": "Times New Roman, serif",
           "background-color": "#ff3c76",
           ":hover": {
             "background-color": "#e6366a"
