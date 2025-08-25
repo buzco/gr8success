@@ -28,6 +28,15 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("./src/archive/*.md");
   });
 
+  eleventyConfig.addCollection("productsSorted", (collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/products/*.md")
+      .sort((a, b) => {
+        const ao = a.data.order ?? 9999;
+        const bo = b.data.order ?? 9999;
+        return ao - bo;
+      });
+  });
+  
  return {
   dir: {
     input: "src",
