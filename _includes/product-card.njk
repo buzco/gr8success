@@ -33,7 +33,11 @@
   <div class="product-block product-dropdown">
     <details>
       <summary>Size guide</summary>
-      <p>{{ size_guide_graph | safe }}</p>
+      {% if size_guide_graph %}
+
+      <img src="{{ size_guide_graph | url }}" alt="Size guide for {{ title }}" loading="lazy" decoding="async">
+    </details>
+    {% endif %}
 
     </details>
   </div>
