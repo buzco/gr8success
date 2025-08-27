@@ -12,9 +12,18 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.1"
+    "@11ty/eleventy": "^3.1.2"
   },
   "dependencies": {
     "nunjucks-date-filter": "^0.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzco/gr8success.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/buzco/gr8success/issues"
+  },
+  "homepage": "https://github.com/buzco/gr8success#readme"
 }
