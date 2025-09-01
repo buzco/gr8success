@@ -25,6 +25,29 @@ body {
   font-family: var(--font-family);
 }
 
+footer{
+  clear: both;         /* drop below any floats */
+  display: block;
+  width: 100%;
+  float: none;
+  position: static;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 12px;
+}
+footer a{ color:#ff3c76; text-decoration:none; }
+footer a:hover{ text-decoration:underline; }
+
+footer a {
+  color: #ff3c76;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
 /* ====================== */
 /* === NAVIGATION === */
 /* ====================== */
