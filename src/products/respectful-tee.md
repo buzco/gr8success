@@ -6,7 +6,7 @@ images:
   - image: /img/respectful_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Respectful Single-Stitch Tee
-price: 32 €
+price: 40 €
 description: 'Gr8 advice: If you place "respectfully" before any sentence you
   can get away anything'
 shopify_embed: >-
@@ -327,8 +327,7 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: >-
-  
-  <ul><li>220gsm heavyweight cotton</li><li>Double-stitched ribbed collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>
+product_specs: <ul><li>220gsm 100 % cotton</li><li>Double-stitched ribbed
+  collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---
