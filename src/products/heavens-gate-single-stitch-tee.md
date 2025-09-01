@@ -6,7 +6,7 @@ images:
   - image: /img/galaxy_gif.gif
   - image: /img/heavens_gate_tee_buzco_front.png
 title: Heaven's Gate Single-Stitch Tee
-price: 32 €
+price: 40 €
 description: Such a vast universe of interesting things to talk about, but
   somehow the conversation runs dry. Not your fault, they just don't get you
   probably
@@ -328,7 +328,7 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: <ul><li>220gsm heavyweight cotton</li><li>Double-stitched ribbed
+product_specs: <ul><li>220gsm 100 % cotton</li><li>Double-stitched ribbed
   collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---
