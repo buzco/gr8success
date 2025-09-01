@@ -6,7 +6,7 @@ images:
   - image: /img/wise_hand_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Wise Hand Single-Stitch Tee
-price: 32 €
+price: 40 €
 description: Palm reading might surprise you how much information is simply not there ;D
 shopify_embed: >-
   <div id='product-component-1756081200267'></div>
@@ -326,7 +326,8 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: <ul><li>220gsm heavyweight cotton</li><li>Double-stitched ribbed
-  collar</li><li>Single-stitch hems</li><li>Made in Portugal</li></ul>
+product_specs: <ul><li>Made in Portugal</li><li>220gsm 100 %
+  cotton</li><li>Double-stitched ribbed collar</li><li>Single-stitch
+  hems</li><li>Made in Portugal</li></ul>
 size_guide_graph: /img/tshirts_sizing_guide.png
 ---
