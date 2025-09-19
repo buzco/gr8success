@@ -1,8 +1,8 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-<div id="souvenir"class="archive-wrapper">
-<div class="images-block">
+<div id="souvenir" class="archive-wrapper">
+  <div class="images-block">
     {% for img in images %}
       {% if img.image %}
         <img src="{{ img.image }}" alt="{{ title }} image">
@@ -10,42 +10,39 @@
         <img src="{{ img }}" alt="{{ title }} image">
       {% endif %}
     {% endfor %}
-</div>
-
-<div class="info-block">
-  <div class="product-block">
-    <p><h1 class="product-title">{{ title }}</h1></p>
-    <p><h2>{{ price | safe }}</h2></p>
-    <p>{{ description | safe }}</p>
-    <p>{{ shopify_embed | safe }}</p>
-    <p><strong>Product Details</strong></p>
-    <p>{{ product_specs | safe }}</p>
-
   </div>
 
-  <div class="product-block product-dropdown">
-    <details>
-      <summary>How to wash our garments</summary>
-      <p>Wash inside out with similar colors at 30 °C using mild detergent. Do not bleach or use fabric softener. Avoid tumble drying; air dry flat or on a hanger, away from direct sunlight. If ironing is needed, do it inside out on low heat and never over the print. Do not dry clean.</p>
-    </details>
-  </div>
+  <div class="info-block">
+    <div class="product-block">
+      <h1 class="product-title">{{ title }}</h1>
+      <h2>{{ price | safe }}</h2>
+      <p>{{ description | safe }}</p>
+      <div>{{ shopify_embed | safe }}</div>
+      <p><strong>Product Details</strong></p>
+      <div>{{ product_specs | safe }}</div>
+    </div>
 
-  <div class="product-block product-dropdown">
-   {% if size_guide_graph %}
-<details class="size-guide">
-  <summary>Size guide</summary>
-  <p></p>
-  <div class="size-guide__media">
-    <img
-      src="{{ size_guide_graph | url }}"
-      alt="Size guide for {{ title }}"
-      loading="lazy"
-      decoding="async">
-  </div>
-</details>
-{% endif %}
+    <div class="product-block product-dropdown">
+      <details>
+        <summary>How to wash our garments</summary>
+        <p>Wash inside out with similar colors at 30 °C using mild detergent. Do not bleach or use fabric softener. Avoid tumble drying; air dry flat or on a hanger, away from direct sunlight. If ironing is needed, do it inside out on low heat and never over the print. Do not dry clean.</p>
+      </details>
+    </div>
 
+    {% if size_guide_graph %}
+    <div class="product-block product-dropdown">
+      <details class="size-guide">
+        <summary>Size guide</summary>
+        <div class="size-guide__media">
+          <img
+            src="{{ size_guide_graph | url }}"
+            alt="Size guide for {{ title }}"
+            loading="lazy"
+            decoding="async">
+        </div>
+      </details>
+    </div>
+    {% endif %}
   </div>
-</div>
-
+</div>  {# <-- CLOSES archive-wrapper #}
 {% endblock %}
