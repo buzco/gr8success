@@ -3,9 +3,12 @@ layout: layout.njk
 title: Home
 ---
 
-<img src="/img/shop_banner_buzco.gif"
-     alt="Shop Now"
+<div class="klaviyo-form-SKBQ5u"></div>
+
+<img src="/img/shop_banner_buzco.gif" 
+     alt="Shop Now"  
      width="100px">
+</div>
 
 
 <div class="products-grid">
@@ -42,47 +45,47 @@ title: Home
     <button class="btn-coming-soon" type="button" disabled aria-disabled="true">
   Coming Soon
     </button>
-    <style>
-      .btn-coming-soon {
-        /* colors */
-        --base: #009c6d;      /* ≈20% darker than #00c389 */
-        --highlight: #00c389; /* bevel highlight */
-        --shadow: #007a55;    /* bevel shadow */
 
-        background: var(--base);
-        color: #000; /* black text */
-        font-family: "Times New Roman", Times, serif;
-        font-weight: 700;
-        font-size: 1rem;
-        letter-spacing: .02em;
+<style>
+  .btn-coming-soon {
+    /* colors */
+    --base: #009c6d;      /* ≈20% darker than #00c389 */
+    --highlight: #00c389; /* bevel highlight */
+    --shadow: #007a55;    /* bevel shadow */
 
-        border-radius: 0;     /* sharp corners */
-        border-top: 4px solid var(--highlight);
-        border-left: 4px solid var(--highlight);
-        border-bottom: 4px solid var(--shadow);
-        border-right: 4px solid var(--shadow);
+    background: var(--base);
+    color: #000; /* black text */
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .02em;
 
-        padding: 0.75rem 1.1rem;
-        line-height: 1;
-        display: inline-block;
+    border-radius: 0;     /* sharp corners */
+    border-top: 4px solid var(--highlight);
+    border-left: 4px solid var(--highlight);
+    border-bottom: 4px solid var(--shadow);
+    border-right: 4px solid var(--shadow);
 
-        cursor: not-allowed;  /* communicates disabled */
-        pointer-events: none; /* truly non-clickable */
-        user-select: none;
-        /* crisp outer hairline for contrast on varied backgrounds */
-        box-shadow: 0 0 0 1px #005a3f inset;
-      }
+    padding: 0.75rem 1.1rem;
+    line-height: 1;
+    display: inline-block;
 
-      .btn-coming-soon:hover,
-      .btn-coming-soon:focus {
-        outline: none; /* no interaction states */
-      }
-    </style>
+    cursor: not-allowed;  /* communicates disabled */
+    pointer-events: none; /* truly non-clickable */
+    user-select: none;
+    /* crisp outer hairline for contrast on varied backgrounds */
+    box-shadow: 0 0 0 1px #005a3f inset;
+  }
+
+  .btn-coming-soon:hover,
+  .btn-coming-soon:focus {
+    outline: none; /* no interaction states */
+  }
+</style>
 
     <p>{{ product.data.shopify_embed }}</p>
   </div>
 {% endfor %}
-</div>
 
   
 
