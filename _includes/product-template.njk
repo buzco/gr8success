@@ -5,22 +5,9 @@
 
 <div class="image-thumb">
   {% for image in images | slice(0, 4) %}
-    <img src="{{ image.image }}" onmouseover="updateImage(this)" {% if loop.index0 == 0 %}class="active"{% endif %}>
+    <img src="{{ image.image }}" {% if loop.index0 == 0 %}class="active"{% endif %}>
   {% endfor %}
 </div>
-
-<script>
-  function updateImage(ele) {
-    const product = ele.closest(".product-template");
-    const viewer = product.querySelector(".image-viewer img");
-    const thumbs = product.querySelectorAll(".image-thumb img");
-
-    viewer.src = ele.src;
-
-    thumbs.forEach(img => img.classList.remove("active"));
-    ele.classList.add("active");
-  }
-</script>
 
   <h2>{{ title }}</h2>
 
