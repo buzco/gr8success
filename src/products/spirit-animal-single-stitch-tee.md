@@ -2,7 +2,10 @@
 layout: product-card.njk
 order: 7
 images:
-  - image: /img/capy_tee_buzco_front.png
+  - image: /img/buzco_spirit_animal_tee_front.png
+  - image: /img/buzco_spirit_animal_tee_back.png
+  - image: /img/dscf2625.jpg
+  - image: /img/dscf2629.jpg
   - image: /img/capy_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Spirit Animal Single-Stitch Tee
