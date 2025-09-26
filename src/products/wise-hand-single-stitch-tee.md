@@ -2,7 +2,8 @@
 layout: product-card.njk
 order: 4
 images:
-  - image: /img/wise_hand_tee_buzco_back.png
+  - image: /img/buzco_wise_hand_tee_back.png
+  - image: /img/buzco_wise_hand_tee_front.png
   - image: /img/wise_hand_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Wise Hand Single-Stitch Tee
