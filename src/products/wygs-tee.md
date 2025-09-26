@@ -2,7 +2,10 @@
 layout: product-card.njk
 order: 8
 images:
-  - image: /img/wygs_tee_back.png
+  - image: /img/buzco_wygs_tee_back.png
+  - image: /img/buzco_wygs_tee_front.png
+  - image: /img/dscf2654.jpg
+  - image: /img/spiranim.gif
 title: WYGS Tee
 price: 25 €
 description: Wishing gr8 success to someone is a superior act of love. It's like
