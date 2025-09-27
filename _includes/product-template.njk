@@ -5,12 +5,14 @@
     {% endif %}
   </div>
 
-  <div class="image-thumb">
-    {% set limitedImages = (product.data.images | default([])) | slice(0, 4) %}
-    {% for image in limitedImages %}
-      <img src="{{ image.image }}" {% if loop.index0 == 0 %}class="active"{% endif %} loading="lazy">
-    {% endfor %}
-  </div>
+  {% set limitedImages = (product.data.images | default([])) | slice(0, 4) %}
+  {% if limitedImages | length %}
+    <div class="image-thumb thumbnail-row">
+      {% for image in limitedImages %}
+        <img src="{{ image.image }}" {% if loop.index0 == 0 %}class="active"{% endif %} loading="lazy">
+      {% endfor %}
+    </div>
+  {% endif %}
 
   <h2><a href="{{ product.url }}#souvenir">{{ product.data.title }}</a></h2>
   <p class="description">{{ product.data.description }}</p>
