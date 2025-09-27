@@ -2,7 +2,8 @@
 layout: product-card.njk
 order: 6
 images:
-  - image: /img/respectful_tee_buzco_front.png
+  - image: /img/buzco_respectful_tee_front.png
+  - image: /img/buzco_respectful_tee_back.png
   - image: /img/respectful_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Respectful Single-Stitch Tee
