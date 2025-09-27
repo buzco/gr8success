@@ -149,41 +149,36 @@ footer a:hover {
 }
 
 /* Thumbnails: allow scroll instead of overflow */
-.thumbnail-row {
+.thumbnail-row,
+.image-thumb {
+  width: 100%;
   margin-top: 10px;
   display: flex;
   gap: 10px;
+  justify-content: center;
   overflow-x: auto;                /* allow scroll instead of overflow */
   overflow-y: hidden;              /* hide vertical overflow from hover */
   -webkit-overflow-scrolling: touch;
 }
 
-.thumbnail-row img {
-  flex: 0 0 auto;                  
+.thumbnail-row img,
+.image-thumb img {
+  flex: 0 0 auto;
   width: 60px;
   height: 60px;
+  padding: 5px;
   object-fit: cover;
   cursor: pointer;
   border: 1px solid var(--border-color);
+  opacity: 0.6;
   transition: transform 0.3s, border-color 0.3s;
   transform-origin: center;        /* scale grows evenly */
 }
 
-.thumbnail-row img:hover {
+.thumbnail-row img:hover,
+.image-thumb img:hover {
   border-color: var(--primary-color);
   transform: scale(1.25);          /* tamer scale so it stays neat */
-}
-
-.image-thumb {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.image-thumb img {
-  height: 60px;
-  padding: 5px;
-  border: 1px solid var(--border-color);
-  opacity: 0.6;
 }
 .active {
   opacity: 1 !important;
