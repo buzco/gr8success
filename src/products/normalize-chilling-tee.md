@@ -1,7 +1,8 @@
 ---
 order: 2
 images:
-  - image: /img/normalize_chilling_buzco_back.png
+  - image: /img/buzco_normalize_tee_back.png
+  - image: /img/buzco_normalize_tee_front.png
   - image: /img/normalize_chilling_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Normalize Chilling Single-Stitch Tee
