@@ -2,7 +2,8 @@
 layout: product-card.njk
 order: 1
 images:
-  - image: /img/minerals_tee_buzco_front.png
+  - image: /img/buzco_minerals_tee_front.png
+  - image: /img/buzco_minerals_tee_back.png
   - image: /img/minerals_gif.gif
   - image: /img/coming_soon_gif_buzco.gif
 title: Minerals Single-Stitch Tee
