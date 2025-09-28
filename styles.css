@@ -117,7 +117,7 @@ footer a:hover {
   height: 100vh;
   z-index: -1;
 
-  background: var(--bg-color) url("/img/gr8_success_green_stars.gif") repeat;
+  background: var(--bg-color) url("/img/buzco_sky_gif.gif") repeat;
   background-size: auto; /* keep original GIF size */
   background-repeat: repeat; /* tile the gif side by side */
 }
