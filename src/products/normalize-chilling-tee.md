@@ -1,10 +1,10 @@
 ---
 order: 2
 images:
-  - image: /img/buzco_normalize_tee_back.png
-  - image: /img/buzco_normalize_tee_front.png
-  - image: /img/buzco_gr8_success_single_stitch_tees-59-.jpg
-  - image: /img/buzco_gr8_success_single_stitch_tees-58-.jpg
+  - image: /img/buzco_normalize_tee_back.webp
+  - image: /img/buzco_normalize_tee_front.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-59-.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-58-.webp
   - image: /img/normalize_chilling_gif.gif
 title: Normalize Chilling Single-Stitch Tee
 price: 40 €
