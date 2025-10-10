@@ -328,6 +328,8 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: aa
+product_specs: >-
+  
+  <ul><li>200gsm 100 % cotton</li><li>Screen-printed graphics</li><li>Classic fit</li><li>Made in El Salvador</li></ul>
 size_guide_graph: /img/rotating_logo_buzco.gif
 ---
