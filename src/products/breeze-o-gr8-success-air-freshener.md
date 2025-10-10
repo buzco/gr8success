@@ -330,6 +330,6 @@ shopify_embed: >-
 
   </script>
 product_specs: Smells like gr8 success. No but seriously, it smells like the
-  color green, we can't really explain it.
+  color green, we can't really explain why.
 size_guide_graph: /img/rotating_logo_buzco.gif
 ---
