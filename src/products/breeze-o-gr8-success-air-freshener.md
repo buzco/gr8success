@@ -4,7 +4,7 @@ order: 5
 images:
   - image: /img/buzco_air_freshener_front.webp
   - image: /img/buzco_air_freshener_back.webp
-title: Breeze o' Gr8 Success Air Freshener
+title: Breeze O' Gr8 Success Air Freshener
 price: 5 €
 description: |-
   Meant for your car, your bad breath, your stinky bedroom, you name it
