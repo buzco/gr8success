@@ -2,9 +2,8 @@
 layout: product-card.njk
 order: 3
 images:
-  - image: /img/buzco_keychain-01.png
-  - image: /img/rotating_logo_buzco.gif
-  - image: /img/coming_soon_gif_buzco.gif
+  - image: /img/buzco_keychain_front.webp
+  - image: /img/buzco_keychain_back.webp
 title: Bottle-Opener Keychain
 price: 10 €
 description: It works, I can confirm
