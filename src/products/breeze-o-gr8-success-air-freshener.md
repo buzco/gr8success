@@ -4,6 +4,7 @@ order: 5
 images:
   - image: /img/buzco_air_freshener_front.webp
   - image: /img/buzco_air_freshener_back.webp
+  - image: /img/buzco_air_freshener_yess.webp
 title: Breeze O' Gr8 Success Air Freshener
 price: 5 €
 description: |-
