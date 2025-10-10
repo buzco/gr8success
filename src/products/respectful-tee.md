@@ -2,10 +2,11 @@
 layout: product-card.njk
 order: 6
 images:
-  - image: /img/buzco_respectful_tee_front.png
-  - image: /img/buzco_respectful_tee_back.png
+  - image: /img/buzco_respectful_tee_front.webp
+  - image: /img/buzco_respectful_tee_back.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-64-.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-1-.webp
   - image: /img/respectful_gif.gif
-  - image: /img/coming_soon_gif_buzco.gif
 title: Respectful Single-Stitch Tee
 price: 40 €
 description: 'Gr8 advice: If you place "respectfully" before any sentence you
