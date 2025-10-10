@@ -2,8 +2,8 @@
 layout: product-card.njk
 order: 8
 images:
-  - image: /img/buzco_wygs_tee_back.png
-  - image: /img/buzco_wygs_tee_front.png
+  - image: /img/buzco_wygs_tee_back.webp
+  - image: /img/buzco_wygs_tee_front.webp
   - image: /img/dscf2654.jpg
   - image: /img/spiranim.gif
 title: WYGS Tee
