@@ -4,9 +4,13 @@ order: 3
 images:
   - image: /img/buzco_keychain_front.webp
   - image: /img/buzco_keychain_back.webp
+  - image: /img/buzco_keychain_lf_1.webp
+  - image: /img/buzco_keychain_lf_2.webp
+  - image: /img/buzco_keychain_lf_3.webp
 title: Bottle-Opener Keychain
 price: 10 €
-description: It works, I can confirm
+description: It works, I can confirm. Meant to open bottles, but you might be
+  able to open other things if you're brave enough
 shopify_embed: >-
   <div id='product-component-1756081172071'></div>
 
