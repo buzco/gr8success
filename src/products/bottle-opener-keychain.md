@@ -329,6 +329,6 @@ shopify_embed: >-
   /*]]>*/
 
   </script>
-product_specs: aa
+product_specs: Coated metal, and Breen-colored enamel
 size_guide_graph: /img/rotating_logo_buzco.gif
 ---
