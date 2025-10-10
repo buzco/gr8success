@@ -2,9 +2,8 @@
 layout: product-card.njk
 order: 5
 images:
-  - image: /img/air_freshener_buzco_front-01-01.png
-  - image: /img/air_freshener_buzco_back-01.png
-  - image: /img/rotating_logo_buzco.gif
+  - image: /img/buzco_air_freshener_front.webp
+  - image: /img/buzco_air_freshener_back.webp
 title: Breeze o' Gr8 Success Air Freshener
 price: 5 €
 description: |-
