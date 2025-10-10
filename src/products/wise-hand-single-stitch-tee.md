@@ -2,10 +2,11 @@
 layout: product-card.njk
 order: 4
 images:
-  - image: /img/buzco_wise_hand_tee_back.png
-  - image: /img/buzco_wise_hand_tee_front.png
+  - image: /img/buzco_wise_hand_tee_back.webp
+  - image: /img/buzco_wise_hand_tee_front.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-61-.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-60-.webp
   - image: /img/wise_hand_gif.gif
-  - image: /img/coming_soon_gif_buzco.gif
 title: Wise Hand Single-Stitch Tee
 price: 40 €
 description: Palm reading might surprise you how much information is simply not there ;D
