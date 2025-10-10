@@ -2,10 +2,10 @@
 layout: product-card.njk
 order: 1
 images:
-  - image: /img/buzco_minerals_tee_front.png
-  - image: /img/buzco_minerals_tee_back.png
-  - image: /img/buzco_gr8_success_single_stitch_tees-62-.jpg
-  - image: /img/buzco_gr8_success_single_stitch_tees-63-.jpg
+  - image: /img/buzco_minerals_tee_front.webp
+  - image: /img/buzco_minerals_tee_back.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-62-.webp
+  - image: /img/buzco_gr8_success_single_stitch_tees-63-.webp
   - image: /img/minerals_gif.gif
 title: Minerals Single-Stitch Tee
 price: 40 €
