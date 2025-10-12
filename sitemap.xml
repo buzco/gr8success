@@ -1,52 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.gr8success.xyz/</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.gr8success.xyz/manifesto</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.gr8success.xyz/team</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.gr8success.xyz/archive</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.gr8success.xyz/tunes</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.gr8success.xyz/contact</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.gr8success.xyz/size_guide</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.gr8success.xyz/size_guide_wygs</loc>
-  <lastmod>2025-04-13T16:42:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://www.gr8success.xyz/</loc>
+    <lastmod>2025-10-10T19:04:24+01:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/about/</loc>
+    <lastmod>2025-09-28T21:24:03+01:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/archive/</loc>
+    <lastmod>2025-09-01T22:38:16+01:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/archive/summer-tees-2025/</loc>
+    <lastmod>2025-08-25T20:28:24+01:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/cabinet_of_curiosities/</loc>
+    <lastmod>2025-09-20T17:03:49+01:00</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/contact/</loc>
+    <lastmod>2025-09-20T17:03:49+01:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/newsletter/</loc>
+    <lastmod>2025-10-10T19:56:03+01:00</lastmod>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/privacy/</loc>
+    <lastmod>2025-09-19T16:16:39+01:00</lastmod>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/shipping/</loc>
+    <lastmod>2025-09-19T16:16:39+01:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/size_guide/</loc>
+    <lastmod>2025-09-20T17:03:49+01:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/size_guide_ghammer/</loc>
+    <lastmod>2025-09-20T17:03:49+01:00</lastmod>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/team/</loc>
+    <lastmod>2025-09-28T21:24:03+01:00</lastmod>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/terms/</loc>
+    <lastmod>2025-09-19T16:16:39+01:00</lastmod>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/tunes/</loc>
+    <lastmod>2025-09-20T17:03:49+01:00</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/bottle-opener-keychain/</loc>
+    <lastmod>2025-10-10T18:43:47+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/breeze-o-gr8-success-air-freshener/</loc>
+    <lastmod>2025-10-10T18:44:13+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/heavens-gate-single-stitch-tee/</loc>
+    <lastmod>2025-09-01T21:09:07+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/minerals-tee/</loc>
+    <lastmod>2025-10-10T17:33:52+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/normalize-chilling-tee/</loc>
+    <lastmod>2025-10-10T17:32:17+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/respectful-tee/</loc>
+    <lastmod>2025-10-10T17:31:04+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/spirit-animal-single-stitch-tee/</loc>
+    <lastmod>2025-10-10T17:34:49+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/wise-hand-single-stitch-tee/</loc>
+    <lastmod>2025-10-10T17:24:29+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.gr8success.xyz/products/wygs-tee/</loc>
+    <lastmod>2025-10-10T17:45:12+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
 </urlset>
