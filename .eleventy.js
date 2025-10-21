@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
+  eleventyConfig.addPassthroughCopy("_redirects");
 
   eleventyConfig.addNunjucksFilter("date", function(dateObj, format = "yyyy-MM-dd") {
     if(typeof dateObj === "string") {

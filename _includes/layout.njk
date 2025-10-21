@@ -11,7 +11,19 @@
   <!-- Open Graph / Social Media Sharing -->
   <meta property="og:title" content="Buzco — Souvenirs for Gr8 Success">
   <meta property="og:description" content="Modern Souvenir Shop. Erradicating the fear of looking stupid with gr8 success.">
-  <meta property="og:url" content="https://www.gr8success.xyz">
+  {% set canonicalPath = page.url | default('/') %}
+  {% if canonicalPath == '/index/' or canonicalPath == '/index.html' %}
+    {% set canonicalPath = '/' %}
+  {% endif %}
+  {% if canonicalPath == '/' %}
+    {% set canonicalUrl = 'https://www.gr8success.xyz/' %}
+  {% else %}
+    {% set canonicalUrl = 'https://www.gr8success.xyz' ~ canonicalPath %}
+  {% endif %}
+
+  <link rel="canonical" href="{{ canonicalUrl }}">
+
+  <meta property="og:url" content="{{ canonicalUrl }}">
   <meta property="og:type" content="website">
 
   <link rel="icon" href="/img/favicon.webp">
@@ -30,7 +42,7 @@
   </marquee>
 
 
-  <a href="/index/">
+  <a href="/">
     <img src="/img/rotating_logo_buzco.gif" alt="BuzcO" class="brand-logo">
   </a>
 
