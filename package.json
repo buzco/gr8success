@@ -15,6 +15,7 @@
     "@11ty/eleventy": "^3.1.2"
   },
   "dependencies": {
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "nunjucks-date-filter": "^0.1.1"
   },
   "repository": {
