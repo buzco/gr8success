@@ -11,19 +11,7 @@
   <!-- Open Graph / Social Media Sharing -->
   <meta property="og:title" content="Buzco — Souvenirs for Gr8 Success">
   <meta property="og:description" content="Modern Souvenir Shop. Erradicating the fear of looking stupid with gr8 success.">
-  {% set canonicalPath = page.url | default('/') %}
-  {% if canonicalPath == '/index/' or canonicalPath == '/index.html' %}
-    {% set canonicalPath = '/' %}
-  {% endif %}
-  {% if canonicalPath == '/' %}
-    {% set canonicalUrl = 'https://www.gr8success.xyz/' %}
-  {% else %}
-    {% set canonicalUrl = 'https://www.gr8success.xyz' ~ canonicalPath %}
-  {% endif %}
-
-  <link rel="canonical" href="{{ canonicalUrl }}">
-
-  <meta property="og:url" content="{{ canonicalUrl }}">
+  <meta property="og:url" content="https://www.gr8success.xyz">
   <meta property="og:type" content="website">
 
   <link rel="icon" href="/img/favicon.webp">
@@ -38,11 +26,10 @@
   <marquee style="border: 2px outset #00ffff; height: 30px; color: #00ffff; font-family: 'arial', arial, serif; font-weight: bold;">
     <div style="padding-top: 5px;">
       SINGLE STITCH TEES NOW AVAILABLE ⟺ FEIRA DA LADRA LISBON ALL OCTOBER - SATURDAYS (11th, 18th, 25th) AND TUESDAY (21st) ⟺
-    </div>
   </marquee>
 
 
-  <a href="/">
+  <a href="/index/">
     <img src="/img/rotating_logo_buzco.gif" alt="BuzcO" class="brand-logo">
   </a>
 
