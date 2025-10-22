@@ -1,6 +1,6 @@
 ---
 layout: product-card.njk
-order: 3
+order: 7
 images:
   - image: /img/buzco_keychain_front.webp
   - image: /img/buzco_keychain_back.webp
