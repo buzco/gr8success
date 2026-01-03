@@ -1,10 +1,10 @@
-const { DateTime } = require("luxon");
-const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
-
+import { DateTime } from "luxon";
+import pluginSitemap from "@quasibit/eleventy-plugin-sitemap";
 import path from "node:path";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
+  // --- Image Plugin Configuration ---
   eleventyConfig.watchIgnores.add("img/**");
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["avif", "webp", "jpeg"],
@@ -16,14 +16,13 @@ export default function (eleventyConfig) {
       },
     },
     filenameFormat: function (id, src, width, format) {
-      // Added a check to ensure 'src' exists to prevent crashes
+      if (!src) return `${id}-${width}.${format}`;
       const filename = path.basename(src, path.extname(src));
       return `${filename}-${width}.${format}`;
     }
   });
-};
 
-module.exports = function(eleventyConfig) {
+  // --- Passthrough File Copies ---
   eleventyConfig.addPassthroughCopy("styles.css");
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("scripts.js");
@@ -31,12 +30,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("_redirects");
+
+  // --- Sitemap Plugin ---
   eleventyConfig.addPlugin(pluginSitemap, {
     sitemap: {
       hostname: "https://www.gr8success.xyz",
     },
   });
 
+  // --- Filters ---
   eleventyConfig.addNunjucksFilter("date", function(dateObj, format = "yyyy-MM-dd") {
     if(typeof dateObj === "string") {
       dateObj = new Date(dateObj);
@@ -44,17 +46,15 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(format);
   });
 
-  // Shop collection
+  // --- Collections ---
   eleventyConfig.addCollection("shop", function(collection) {
     return collection.getFilteredByGlob("./src/shop/*.md");
   });
 
-  // Archive collection
   eleventyConfig.addCollection("archives", function(collection) {
     return collection.getFilteredByGlob("./src/archive/*.md");
   });
   
-  // Products collection
   eleventyConfig.addCollection("products", (collectionApi) => {
     return collectionApi.getFilteredByGlob("src/products/*.md")
       .sort((a, b) => {
@@ -64,11 +64,12 @@ module.exports = function(eleventyConfig) {
       });
   });
 
- return {
-  dir: {
-    input: "src",
-    includes: "../_includes",
-    output: "_site"
-  }
-};
-};
+  // --- Directory Settings ---
+  return {
+    dir: {
+      input: "src",
+      includes: "../_includes",
+      output: "_site"
+    }
+  };
+}
