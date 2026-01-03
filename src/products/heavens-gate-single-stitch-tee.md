@@ -4,7 +4,6 @@ order: 9
 images:
   - image: /img/coming_soon_gif_buzco.gif
   - image: /img/galaxy_gif.gif
-  - image: /img/heavens_gate_tee_buzco_front.png
 title: Heaven's Gate Single-Stitch Tee
 price: 40 €
 description: Such a vast universe of interesting things to talk about, but
