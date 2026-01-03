@@ -130,92 +130,76 @@ footer a:hover {
   opacity: 0.7;
 }
 
-.image-viewer {
-  width: 100%;
-  max-width: 400px;     /* keep your desktop size */
-  aspect-ratio: 1 / 1;  /* keep it square without fixed height */
-  height: auto;         /* let aspect-ratio control height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin: 0 auto;       /* center inside template */
-}
-.image-viewer img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
-/* Thumbnails: allow scroll instead of overflow */
-.thumbnail-row,
-.image-thumb {
-  width: 100%;
-  margin-top: 10px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  overflow-x: auto;                /* allow scroll instead of overflow */
-  overflow-y: hidden;              /* hide vertical overflow from hover */
-  -webkit-overflow-scrolling: touch;
-}
-
-.thumbnail-row img,
-.image-thumb img {
-  flex: 0 0 auto;
-  width: 60px;
-  height: 60px;
-  padding: 5px;
-  object-fit: cover;
-  cursor: pointer;
-  border: 1px solid var(--border-color);
-  opacity: 0.6;
-  transition: transform 0.3s, border-color 0.3s;
-  transform-origin: center;        /* scale grows evenly */
-}
-
-.thumbnail-row img:hover,
-.image-thumb img:hover {
-  border-color: var(--primary-color);
-  transform: scale(1.25);          /* tamer scale so it stays neat */
-}
-.active {
-  opacity: 1 !important;
-  border-color: var(--primary-color);
-}
-
-/* Image zoom */
-.product-image {
-  max-width: 100%;
-  cursor: zoom-in;
-  transition: transform 0.3s ease;
-}
-.product-image.zoomed {
-  transform: scale(2);
-  cursor: zoom-out;
-}
 
 /* ====================== */
 /* === PRODUCT TEMPLATE === */
 /* ====================== */
 .product-template {
   width: 100%;
-  max-width: 500px;     /* your original cap */
-  min-width: 0;         /* allow shrinking */
+  max-width: 500px;
   margin: 0 auto;
   box-sizing: border-box;
-
   padding: 20px;
-  text-align: left;
-
   background-color: #080e0c;
-  border: 1px solid var(--border-color);
-  border-top: 3px solid var(--primary-color);
-  border-left: 3px solid var(--primary-color);
-  border-bottom: 3px solid #03241a;
-  border-right: 3px solid #03241a;
-  box-shadow: 2px 2px 0px #030100;
+  border: 3px solid var(--primary-color); /* Simplified border for cleaner look */
+  border-bottom-color: #03241a;
+  border-right-color: #03241a;
+  box-shadow: 4px 4px 0px #030100;
+
+  .image-viewer {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #0c1412; /* "Skeleton" color prevents white flash */
+    border: 1px solid #1a2b27;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+      cursor: zoom-in;
+      
+      &.zoomed {
+        transform: scale(2);
+        cursor: zoom-out;
+      }
+    }
+  }
+
+  .thumbnail-row {
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    overflow-x: auto;
+    padding-bottom: 5px; /* Space for the scrollbar if it appears */
+    scrollbar-width: none; /* Hide scrollbar for aesthetics */
+
+    &::-webkit-scrollbar { display: none; }
+
+    .thumb-button {
+      background: none;
+      border: 2px solid transparent;
+      padding: 2px;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: all 0.2s ease;
+
+      &.active {
+        opacity: 1;
+        border-color: var(--primary-color);
+      }
+
+      img {
+        display: block;
+        object-fit: cover;
+      }
+    }
+  }
 }
 
 .product-image {
@@ -226,6 +210,8 @@ footer a:hover {
   display: block;
   margin: 0 auto;
 }
+
+
 
 /* ====================== */
 /* === RESPONSIVE === */
