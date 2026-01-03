@@ -4,7 +4,7 @@ backend:
   branch: main
   identity_url: https://auth.decapbridge.com/sites/96d7424d-dea8-4b5b-99b2-be63b82feea9
   gateway_url: https://gateway.decapbridge.com
-media_folder: "img"                 # path in your repo (relative to root)
+media_folder: "src/img"                 # path in your repo (relative to root)
 public_folder: "/img"              # path seen in HTML
 
 collections:
@@ -82,10 +82,12 @@ collections:
       - label: "Images"
         name: "images"
         widget: "list"
-        field:
-          label: "Image"
-          name: "image"
-          widget: "image"
+        summary: '{{fields.image}}'
+        fields: # Use plural 'fields' to match your Products structure
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            choose_url: true
 
 
 

@@ -1,25 +1,26 @@
 const { DateTime } = require("luxon");
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 
+import path from "node:path";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		// output image formats
-		formats: ["avif", "webp", "jpeg"],
-
-		// output image widths
-		widths: ["auto"],
-
-		// optional, attributes assigned on <img> nodes override these values
-		htmlOptions: {
-			imgAttributes: {
-				loading: "lazy",
-				decoding: "async",
-			},
-			pictureAttributes: {}
-		},
-	});
+  eleventyConfig.watchIgnores.add("img/**");
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    formats: ["avif", "webp", "jpeg"],
+    widths: [368, 736, 900],
+    htmlOptions: {
+      imgAttributes: {
+        loading: "lazy",
+        decoding: "async",
+      },
+    },
+    filenameFormat: function (id, src, width, format) {
+      // Added a check to ensure 'src' exists to prevent crashes
+      const filename = path.basename(src, path.extname(src));
+      return `${filename}-${width}.${format}`;
+    }
+  });
 };
 
 module.exports = function(eleventyConfig) {
