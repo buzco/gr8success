@@ -2,6 +2,7 @@
   "name": "buzco_website",
   "version": "1.0.0",
   "main": "scripts.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
@@ -23,7 +24,6 @@
     "type": "git",
     "url": "git+https://github.com/buzco/gr8success.git"
   },
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/buzco/gr8success/issues"
   },
