@@ -15,7 +15,7 @@ eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
   shouldTransformDOMElement: (el) => {
     const src = el.getAttribute("src");
     // If there's no src, or it's an external link, or it's a .ico file, skip it.
-    if (!src || src.startsWith("http") || src.startsWith("//") || src.endsWith(".ico")) {
+    if (!src || src.startsWith("http") || src.startsWith("//") || src.endsWith(".ico") || src.endsWith(".gif")) {
       return false;
     }
     return true;
