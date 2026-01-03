@@ -6,13 +6,19 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 export default function (eleventyConfig) {
   // --- Image Plugin Configuration ---
   eleventyConfig.watchIgnores.add("img/**");
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    formats: ["avif", "webp", "jpeg"],
-    widths: [368, 736, 900],
-    htmlOptions: {
-      imgAttributes: {
-        loading: "lazy",
-        decoding: "async",
+eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+  formats: ["avif", "webp", "jpeg"],
+  widths: [368, 736, 900],
+  // This line tells the plugin only to transform local files, 
+  // and ignore things starting with http or https
+  shouldTransformDOMElement: (el) => {
+    const src = el.getAttribute("src");
+    return src && !src.startsWith("http");
+  },
+  htmlOptions: {
+    imgAttributes: {
+      loading: "lazy",
+      decoding: "async",
       },
     },
     filenameFormat: function (id, src, width, format) {
