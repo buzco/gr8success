@@ -7,13 +7,18 @@ export default function (eleventyConfig) {
   // --- Image Plugin Configuration ---
   eleventyConfig.watchIgnores.add("img/**");
 eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+  failOnError: false,
   formats: ["avif", "webp", "jpeg"],
   widths: [368, 736, 900],
   // This line tells the plugin only to transform local files, 
   // and ignore things starting with http or https
   shouldTransformDOMElement: (el) => {
     const src = el.getAttribute("src");
-    return src && !src.startsWith("http");
+    // If there's no src, or it's an external link, or it's a .ico file, skip it.
+    if (!src || src.startsWith("http") || src.startsWith("//") || src.endsWith(".ico")) {
+      return false;
+    }
+    return true;
   },
   htmlOptions: {
     imgAttributes: {
