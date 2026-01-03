@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles.css");
@@ -8,6 +9,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("_redirects");
+  eleventyConfig.addPlugin(pluginSitemap, {
+    sitemap: {
+      hostname: "https://www.gr8success.xyz",
+    },
+  });
 
   eleventyConfig.addNunjucksFilter("date", function(dateObj, format = "yyyy-MM-dd") {
     if(typeof dateObj === "string") {
