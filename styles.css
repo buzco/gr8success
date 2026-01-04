@@ -80,11 +80,11 @@ body {
 .products-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  width: 90vw;
+  gap: 15px;
+  width: 95vw;
   max-width: 1400px;
-  margin: 30px auto;
-  padding: 0 20px;
+  margin: 20px auto;
+  padding: 0;
 }
 
 .text-container {
@@ -119,10 +119,10 @@ body {
 /* ====================== */
 .product-template {
   width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 15px;
   background-color: #080e0c;
   border: 3px solid var(--primary-color);
   border-bottom-color: #03241a;
@@ -286,6 +286,8 @@ body {
 @media (max-width: 600px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 98%;
   }
   .archive-wrapper {
     flex-direction: column;
