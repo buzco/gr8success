@@ -1,25 +1,28 @@
 <div class="product-template">
   <div class="image-viewer">
-    {% if product.data.images and product.data.images[0] %}
+    {% set productImages = product.data.images | default([]) %}
+    {% if productImages and productImages[0] %}
       <img 
-        src="{{ product.data.images[0].image }}" 
+        src="{{ productImages[0].image }}" 
         alt="{{ product.data.title }}" 
         class="product-image" 
         id="main-{{ loop.index }}"
         width="400" height="400"
         loading="eager"
       >
+    {% else %}
+      <div class="image-placeholder">Image coming soon</div>
     {% endif %}
   </div>
 
-  {% set limitedImages = (product.data.images | default([])) | slice(0, 4) %}
+  {% set limitedImages = productImages | slice(0, 4) %}
   {% if limitedImages | length > 1 %}
     <nav class="image-thumb thumbnail-row" aria-label="Product thumbnails">
       {% for image in limitedImages %}
         <button type="button" 
                 class="thumb-button {% if loop.index0 == 0 %}active{% endif %}" 
-                onclick="updateMainImage('{{ image.image }}', this)">
-          <img src="{{ image.image }}" alt="Thumbnail" width="60" height="60">
+                data-target="{{ image.image }}">
+          <img src="{{ image.image }}" alt="{{ product.data.title }} thumbnail {{ loop.index }}" width="60" height="60" loading="lazy">
         </button>
       {% endfor %}
     </nav>

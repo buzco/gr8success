@@ -12,35 +12,3 @@ templateEngineOverride: njk, md
     {% include "product-template.njk" %}
   {% endfor %}
 </div>
-
-<style>
-.product-template h2 a,
-.product-template h2 a:visited {
-  color: #00c389;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.product-template h2 a:hover,
-.product-template h2 a:focus {
-  color: #00996e;
-  text-decoration: underline;
-}
-</style>
-
-<script>
-function updateMainImage(imgSrc, buttonElement) {
-  // Find the product container
-  const container = buttonElement.closest('.product-template');
-  
-  // Update the main image
-  const mainImg = container.querySelector('.product-image');
-  mainImg.src = imgSrc;
-  
-  // Update active class on buttons
-  container.querySelectorAll('.thumb-button').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  buttonElement.classList.add('active');
-}
-</script>
