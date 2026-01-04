@@ -175,6 +175,65 @@ body {
 }
 
 /* ====================== */
+/* === THUMBNAILS ROW === */
+/* ====================== */
+.thumbnail-row,
+.image-thumb {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden; /* prevents vertical jitter on scale */
+  padding: 10px 0;    /* space for the scale(1.25) to breathe */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; 
+}
+
+.thumbnail-row::-webkit-scrollbar { display: none; }
+
+/* Target the wrapper (picture) or the image itself */
+.thumbnail-row img,
+.thumbnail-row picture,
+.image-thumb img,
+.image-thumb picture {
+  flex: 0 0 60px; /* Previne encolhimento */
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s, border-color 0.3s, opacity 0.3s;
+  transform-origin: center;
+}
+
+/* Specific styling for the actual image pixels */
+.thumbnail-row img,
+.image-thumb img {
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+  opacity: 0.6;
+  padding: 5px;
+  width: 100%; /* fills the 60px flex box */
+  height: 100%;
+}
+
+/* Hover & Active States */
+.thumbnail-row img:hover,
+.image-thumb img:hover,
+.thumbnail-row picture:hover img,
+.image-thumb picture:hover img {
+  border-color: var(--primary-color);
+  transform: scale(1.25);
+  opacity: 1;
+}
+
+.active, 
+.active img {
+  opacity: 1 !important;
+  border-color: var(--primary-color) !important;
+}
+
+/* ====================== */
 /* === PROFILE PICS FIX === */
 /* ====================== */
 /* Specifically targeting the André/Miguel section from your screenshot */
