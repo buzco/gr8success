@@ -234,33 +234,6 @@ body {
 }
 
 /* ====================== */
-/* === PROFILE PICS FIX === */
-/* ====================== */
-/* Specifically targeting the André/Miguel section from your screenshot */
-[style*="flex: 1 1 150px"] picture img {
-    height: auto !important; /* Forces the aspect ratio to be respected */
-    width: 100%;
-    object-fit: cover;
-}
-
-/* ====================== */
-/* === ARCHIVE === */
-/* ====================== */
-.archive-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 2rem;
-  width: 70%;
-}
-
-.images-block {
-  flex: 0 0 60%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-/* ====================== */
 /* === ARCHIVE === */
 /* ====================== */
 .archive-wrapper {
@@ -310,7 +283,7 @@ body {
 /* ====================== */
 /* === RESPONSIVE === */
 /* ====================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -325,6 +298,40 @@ body {
   .images-block picture,
   .images-block img {
     flex: 0 0 95%;
+  }
+  .product-template {
+    /* 1. Reduce padding to give images more room */
+    padding: 10px; 
+    
+    /* 2. Adjust border and shadow for a cleaner look on small screens */
+    border-width: 2px;
+    box-shadow: 2px 2px 0px #030100;
+    
+    /* 3. Ensure the margin doesn't eat up space */
+    margin: 5px; 
+    
+    /* 4. Allow the box to fill its share of the 2-column grid */
+    max-width: 100%; 
+  }
+
+  /* 5. Target the Title and Description */
+  .product-template h2, 
+  .product-template .title {
+    font-size: 1.1rem; /* Adjust as needed */
+    margin-bottom: 5px;
+  }
+
+  .product-template p, 
+  .product-template .description {
+    font-size: 0.9rem; /* Smaller text for smaller cards */
+    line-height: 1.2;
+  }
+
+  /* 6. Ensure images take up the full available width of the card */
+  .product-template img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
 
