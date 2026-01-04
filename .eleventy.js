@@ -35,7 +35,7 @@ eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 
   // --- Passthrough File Copies ---
   eleventyConfig.addPassthroughCopy("styles.css");
-  eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("scripts.js");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("robots.txt");
