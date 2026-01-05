@@ -1,6 +1,6 @@
 ---
 layout: product-card.njk
-order: 8
+order: 9
 images:
   - image: /img/buzco_wygs_tee_back.webp
   - image: /img/buzco_wygs_tee_front.webp
