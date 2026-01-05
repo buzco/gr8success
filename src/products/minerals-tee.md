@@ -1,6 +1,6 @@
 ---
 layout: product-card.njk
-order: 1
+order: 2
 images:
   - image: /img/buzco_minerals_tee_front.webp
   - image: /img/buzco_minerals_tee_back.webp
