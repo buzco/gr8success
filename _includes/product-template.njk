@@ -16,7 +16,7 @@
   </div>
 
   {% set limitedImages = productImages | slice(0, 4) %}
-  {% if limitedImages | length > 1 %}
+  {% if limitedImages | length >= 1 %}
     <nav class="image-thumb thumbnail-row" aria-label="Product thumbnails">
       {% for image in limitedImages %}
         <button type="button" 
