@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 images:
   - image: /img/buzco_normalize_tee_back.webp
   - image: /img/buzco_normalize_tee_front.webp
