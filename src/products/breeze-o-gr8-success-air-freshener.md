@@ -1,6 +1,6 @@
 ---
 layout: product-card.njk
-order: 5
+order: 6
 images:
   - image: /img/buzco_air_freshener_front.webp
   - image: /img/buzco_air_freshener_back.webp
