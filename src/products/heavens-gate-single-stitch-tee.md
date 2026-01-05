@@ -3,7 +3,8 @@ layout: product-card.njk
 order: 1
 images:
   - image: /img/heavens_gate_tee_buzco_front.png
-  - image: /img/coming_soon_gif_buzco.gif
+  - image: /img/heavens_gate_social_media_2.jpg
+  - image: /img/heavens_gate_social_media_1.jpg
   - image: /img/galaxy_gif.gif
 title: Heaven's Gate Single-Stitch Tee
 price: 40 €
