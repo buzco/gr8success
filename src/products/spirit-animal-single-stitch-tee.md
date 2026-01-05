@@ -1,6 +1,6 @@
 ---
 layout: product-card.njk
-order: 3
+order: 4
 images:
   - image: /img/buzco_spirit_animal_tee_front.webp
   - image: /img/buzco_spirit_animal_tee_back.webp
