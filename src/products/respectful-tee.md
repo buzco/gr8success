@@ -1,6 +1,6 @@
 ---
 layout: product-card.njk
-order: 6
+order: 7
 images:
   - image: /img/buzco_respectful_tee_front.webp
   - image: /img/buzco_respectful_tee_back.webp
