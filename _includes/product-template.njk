@@ -14,20 +14,6 @@
       <div class="image-placeholder">Image coming soon</div>
     {% endif %}
   </div>
-
-  {% set limitedImages = productImages | slice(0, 4) %}
-  {% if limitedImages | length >= 1 %}
-    <nav class="image-thumb thumbnail-row" aria-label="Product thumbnails">
-      {% for image in limitedImages %}
-        <button type="button" 
-                class="thumb-button {% if loop.index0 == 0 %}active{% endif %}" 
-                data-target="{{ image.image }}">
-          <img src="{{ image.image }}" alt="{{ product.data.title }} thumbnail {{ loop.index }}" width="60" height="60" loading="lazy">
-        </button>
-      {% endfor %}
-    </nav>
-  {% endif %}
-
   <div class="product-info">
     <h2><a href="{{ product.url }}#souvenir">{{ product.data.title }}</a></h2>
     <p class="description">{{ product.data.description }}</p>
