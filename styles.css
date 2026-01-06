@@ -183,6 +183,9 @@ body {
   cursor: zoom-out;
 }
 
+.product-template .embed-container{
+  min-height: 90px;  /* adjust once you see it */
+}
 
 /* ====================== */
 /* === ARCHIVE === */
