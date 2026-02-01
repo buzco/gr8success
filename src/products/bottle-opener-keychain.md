@@ -12,7 +12,7 @@ price: 10 €
 description: It works, I can confirm. Meant to open bottles, but you might be
   able to open other things if you're brave enough
 shopify_embed: >-
-  <div id='product-component-1756081172071'></div>
+  <div id='product-component-1769972347544'></div>
 
   <script type="text/javascript">
 
@@ -43,8 +43,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '9862490194259',
-          node: document.getElementById('product-component-1756081172071'),
+          id: '10075310883155',
+          node: document.getElementById('product-component-1769972347544'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -63,18 +63,26 @@ shopify_embed: >-
         },
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px",
-          "padding-left": "24px",
-          "padding-right": "24px"
+          "padding-left": "30px",
+          "padding-right": "30px"
+        },
+        "quantityInput": {
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px"
         },
         "price": {
           "font-family": "Times New Roman, serif",
@@ -128,18 +136,26 @@ shopify_embed: >-
         },
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px",
-          "padding-left": "24px",
-          "padding-right": "24px"
+          "padding-left": "30px",
+          "padding-right": "30px"
+        },
+        "quantityInput": {
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px"
         },
         "title": {
           "font-family": "Helvetica Neue, sans-serif",
@@ -190,14 +206,17 @@ shopify_embed: >-
       "styles": {
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px"
         },
@@ -258,21 +277,23 @@ shopify_embed: >-
       },
       "contents": {
         "note": true
-      }
+      },
+      "popup": false
     },
     "toggle": {
       "styles": {
         "toggle": {
           "font-family": "Times New Roman, serif",
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":hover": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           }
         },
         "count": {
+          "font-size": "13px",
           "color": "#000000",
           ":hover": {
             "color": "#000000"
