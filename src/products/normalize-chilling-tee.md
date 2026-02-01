@@ -12,7 +12,7 @@ description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
   the ground doing nothing, it's nice
 shopify_embed: >-
-  <div id='product-component-1756081335440'></div>
+  <div id='product-component-1769971791917'></div>
 
   <script type="text/javascript">
 
@@ -44,7 +44,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '9958871728467',
-          node: document.getElementById('product-component-1756081335440'),
+          node: document.getElementById('product-component-1769971791917'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -66,15 +66,15 @@ shopify_embed: >-
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d2b6dd",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           },
           "border-radius": "0px",
-          "padding-left": "24px",
-          "padding-right": "24px"
+          "padding-left": "30px",
+          "padding-right": "30px"
         },
         "price": {
           "font-family": "Times New Roman, serif",
@@ -131,15 +131,15 @@ shopify_embed: >-
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d2b6dd",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           },
           "border-radius": "0px",
-          "padding-left": "24px",
-          "padding-right": "24px"
+          "padding-left": "30px",
+          "padding-right": "30px"
         },
         "title": {
           "font-family": "Helvetica Neue, sans-serif",
@@ -193,11 +193,11 @@ shopify_embed: >-
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d2b6dd",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           },
           "border-radius": "0px"
         },
@@ -264,12 +264,12 @@ shopify_embed: >-
       "styles": {
         "toggle": {
           "font-family": "Times New Roman, serif",
-          "background-color": "#ff3c76",
+          "background-color": "#d2b6dd",
           ":hover": {
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           },
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#bda4c7"
           }
         },
         "count": {
