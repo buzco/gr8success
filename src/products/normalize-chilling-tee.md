@@ -12,7 +12,7 @@ description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
   the ground doing nothing, it's nice
 shopify_embed: >-
-  <div id='product-component-1769971791917'></div>
+  <div id='product-component-1769971884021'></div>
 
   <script type="text/javascript">
 
@@ -43,8 +43,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '9958871728467',
-          node: document.getElementById('product-component-1769971791917'),
+          id: '10075312652627',
+          node: document.getElementById('product-component-1769971884021'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -258,7 +258,8 @@ shopify_embed: >-
       },
       "contents": {
         "note": true
-      }
+      },
+      "popup": false
     },
     "toggle": {
       "styles": {
