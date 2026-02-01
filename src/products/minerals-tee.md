@@ -12,7 +12,7 @@ price: 40 €
 description: This t-shirt is equipped with all our combined powerful mineral
   energies, specifically crafted for those who seek for gr8 success
 shopify_embed: >-
-  <div id='product-component-1769972499062'></div>
+  <div id='product-component-1769972553276'></div>
 
   <script type="text/javascript">
 
@@ -43,8 +43,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '9862501171539',
-          node: document.getElementById('product-component-1769972499062'),
+          id: '10075306557779',
+          node: document.getElementById('product-component-1769972553276'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
