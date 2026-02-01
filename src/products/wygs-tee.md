@@ -11,7 +11,7 @@ price: 25 €
 description: Wishing gr8 success to someone is a superior act of love. It's like
   wishing good luck cleaning all those dishes, you'll need it
 shopify_embed: >-
-  <div id='product-component-1756081514532'></div>
+  <div id='product-component-1769972757121'></div>
 
   <script type="text/javascript">
 
@@ -43,7 +43,7 @@ shopify_embed: >-
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
           id: '9860582834515',
-          node: document.getElementById('product-component-1756081514532'),
+          node: document.getElementById('product-component-1769972757121'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -62,18 +62,26 @@ shopify_embed: >-
         },
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px",
-          "padding-left": "24px",
-          "padding-right": "24px"
+          "padding-left": "30px",
+          "padding-right": "30px"
+        },
+        "quantityInput": {
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px"
         },
         "price": {
           "font-family": "Times New Roman, serif",
@@ -127,18 +135,26 @@ shopify_embed: >-
         },
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px",
-          "padding-left": "24px",
-          "padding-right": "24px"
+          "padding-left": "30px",
+          "padding-right": "30px"
+        },
+        "quantityInput": {
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px"
         },
         "title": {
           "font-family": "Helvetica Neue, sans-serif",
@@ -189,14 +205,17 @@ shopify_embed: >-
       "styles": {
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px"
         },
@@ -257,21 +276,23 @@ shopify_embed: >-
       },
       "contents": {
         "note": true
-      }
+      },
+      "popup": false
     },
     "toggle": {
       "styles": {
         "toggle": {
           "font-family": "Times New Roman, serif",
-          "background-color": "#ff3c76",
+          "background-color": "#d9bee3",
           ":hover": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           },
           ":focus": {
-            "background-color": "#e6366a"
+            "background-color": "#c3abcc"
           }
         },
         "count": {
+          "font-size": "13px",
           "color": "#000000",
           ":hover": {
             "color": "#000000"
