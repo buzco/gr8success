@@ -12,7 +12,7 @@ description: Normal People are into chilling. If you are not into chilling
   probably you should be by now. Turn off that damn phone, go outside, lie on
   the ground doing nothing, it's nice
 shopify_embed: >-
-  <div id='product-component-1769971884021'></div>
+  <div id='product-component-1769972604882'></div>
 
   <script type="text/javascript">
 
@@ -43,8 +43,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '10075312652627',
-          node: document.getElementById('product-component-1769971884021'),
+          id: '9958871728467',
+          node: document.getElementById('product-component-1769972604882'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
@@ -63,18 +63,26 @@ shopify_embed: >-
         },
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#d2b6dd",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px",
           "padding-left": "30px",
           "padding-right": "30px"
+        },
+        "quantityInput": {
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px"
         },
         "price": {
           "font-family": "Times New Roman, serif",
@@ -128,18 +136,26 @@ shopify_embed: >-
         },
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#d2b6dd",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px",
           "padding-left": "30px",
           "padding-right": "30px"
+        },
+        "quantityInput": {
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px"
         },
         "title": {
           "font-family": "Helvetica Neue, sans-serif",
@@ -190,14 +206,17 @@ shopify_embed: >-
       "styles": {
         "button": {
           "font-family": "Times New Roman, serif",
+          "font-size": "13px",
+          "padding-top": "14.5px",
+          "padding-bottom": "14.5px",
           "color": "#000000",
           ":hover": {
             "color": "#000000",
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           },
-          "background-color": "#d2b6dd",
+          "background-color": "#d9bee3",
           ":focus": {
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           },
           "border-radius": "0px"
         },
@@ -265,15 +284,16 @@ shopify_embed: >-
       "styles": {
         "toggle": {
           "font-family": "Times New Roman, serif",
-          "background-color": "#d2b6dd",
+          "background-color": "#d9bee3",
           ":hover": {
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           },
           ":focus": {
-            "background-color": "#bda4c7"
+            "background-color": "#c3abcc"
           }
         },
         "count": {
+          "font-size": "13px",
           "color": "#000000",
           ":hover": {
             "color": "#000000"
