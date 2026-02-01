@@ -12,7 +12,7 @@ price: 10 €
 description: It works, I can confirm. Meant to open bottles, but you might be
   able to open other things if you're brave enough
 shopify_embed: >-
-  <div id='product-component-1769972347544'></div>
+  <div id='product-component-1769972464424'></div>
 
   <script type="text/javascript">
 
@@ -43,8 +43,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '10075310883155',
-          node: document.getElementById('product-component-1769972347544'),
+          id: '9862490194259',
+          node: document.getElementById('product-component-1769972464424'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
