@@ -11,7 +11,7 @@ title: Wise Hand Single-Stitch Tee
 price: 40 €
 description: Palm reading might surprise you how much information is simply not there ;D
 shopify_embed: >-
-  <div id='product-component-1769972694337'></div>
+  <div id='product-component-1769991433335'></div>
 
   <script type="text/javascript">
 
@@ -42,8 +42,8 @@ shopify_embed: >-
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '10075312652627',
-          node: document.getElementById('product-component-1769972694337'),
+          id: '10075308884307',
+          node: document.getElementById('product-component-1769991433335'),
           moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
           options: {
     "product": {
